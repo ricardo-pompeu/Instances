@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/example/Instances">
+    <file>ui/window.ui</file>
+    <file>ui/sidebar.ui</file>
+    <file>ui/download-dialog.ui</file>
+    <file>style.css</file>
+    <file alias="icons/scalable/apps/com.example.Instances.svg">icons/hicolor/scalable/apps/com.example.Instances.svg</file>
+    <file alias="icons/symbolic/apps/com.example.Instances-symbolic.svg">icons/hicolor/symbolic/apps/com.example.Instances-symbolic.svg</file>
+    <file alias="icons/symbolic/actions/paper-plane-symbolic.svg">icons/hicolor/symbolic/actions/paper-plane-symbolic.svg</file>
+    <file alias="icons/symbolic/actions/plus-framed-symbolic.svg">icons/hicolor/symbolic/actions/plus-framed-symbolic.svg</file>
+  </gresource>
+</gresources>

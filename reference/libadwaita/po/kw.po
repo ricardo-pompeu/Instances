@@ -1,0 +1,680 @@
+# Cornish translation for libadwaita.
+# Copyright (C) 2026 libadwaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadwaita package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Flynn Peck <cirilla@tuta.io>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libadwaita main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"POT-Creation-Date: 2026-03-29 18:42+0000\n"
+"PO-Revision-Date: 2026-03-30 11:52+0100\n"
+"Last-Translator: Flynn Peck <cirilla@tuta.io>\n"
+"Language-Team: kw\n"
+"Language: kw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-DL-VCS-Web: https://gitlab.gnome.org/GNOME/libadwaita\n"
+"X-DL-Lang: kw\n"
+"X-DL-Module: libadwaita\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: Translating\n"
+"X-Generator: Gtranslator 50.0\n"
+
+#: src/adw-about-dialog.c:214 src/adw-about-window.c:209
+msgid "GNU General Public License, version 2 or later"
+msgstr "Leshyans GNU Poblek Ollgemmyn, versyon 2 po diwettha"
+
+#: src/adw-about-dialog.c:215 src/adw-about-window.c:210
+msgid "GNU General Public License, version 3 or later"
+msgstr "Leshyans GNU Poblek Ollgemmyn, versyon 3 po diwettha"
+
+#: src/adw-about-dialog.c:216 src/adw-about-window.c:211
+msgid "GNU Lesser General Public License, version 2.1 or later"
+msgstr "Leshyans GNU Poblek Ollgemmyn Le, versyon 2.1 po diwettha"
+
+#: src/adw-about-dialog.c:217 src/adw-about-window.c:212
+msgid "GNU Lesser General Public License, version 3 or later"
+msgstr "Leshyans GNU Poblek Ollgemmyn Le, versyon 3 po diwettha"
+
+#: src/adw-about-dialog.c:218 src/adw-about-window.c:213
+msgid "BSD 2-Clause License"
+msgstr "Leshyans BSD 2-Clause"
+
+#: src/adw-about-dialog.c:219 src/adw-about-window.c:214
+msgid "The MIT License (MIT)"
+msgstr "An Leshyans MIT (MIT)"
+
+#: src/adw-about-dialog.c:220 src/adw-about-window.c:215
+msgid "Artistic License 2.0"
+msgstr "Leshyans Kreftek 2.0"
+
+#: src/adw-about-dialog.c:221 src/adw-about-window.c:216
+msgid "GNU General Public License, version 2 only"
+msgstr "Leshyans GNU Poblek Ollgemmyn, versyon 2 yn unnik"
+
+#: src/adw-about-dialog.c:222 src/adw-about-window.c:217
+msgid "GNU General Public License, version 3 only"
+msgstr "Leshyans GNU Poblek Ollgemmyn, versyon 3 yn unnik"
+
+#: src/adw-about-dialog.c:223 src/adw-about-window.c:218
+msgid "GNU Lesser General Public License, version 2.1 only"
+msgstr "Leshyans GNU Poblek Ollgemmyn Le, versyon 2.1 yn unnik"
+
+#: src/adw-about-dialog.c:224 src/adw-about-window.c:219
+msgid "GNU Lesser General Public License, version 3 only"
+msgstr "Leshyans GNU Poblek Ollgemmyn Le, versyon 3 yn unnik"
+
+#: src/adw-about-dialog.c:225 src/adw-about-window.c:220
+msgid "GNU Affero General Public License, version 3 or later"
+msgstr "Leshyans GNU Affero Poblek Ollgemmyn, versyon 3 po diwettha"
+
+#: src/adw-about-dialog.c:226 src/adw-about-window.c:221
+msgid "GNU Affero General Public License, version 3 only"
+msgstr "Leshyans GNU Affero Poblek Ollgemmyn, versyon 3 yn unnik"
+
+#: src/adw-about-dialog.c:227 src/adw-about-window.c:222
+msgid "BSD 3-Clause License"
+msgstr "Leshyans BSD 3-Clause"
+
+#: src/adw-about-dialog.c:228 src/adw-about-window.c:223
+msgid "Apache License, Version 2.0"
+msgstr "Leshyans Apache, Veryson 2.0"
+
+#: src/adw-about-dialog.c:229 src/adw-about-window.c:224
+msgid "Mozilla Public License 2.0"
+msgstr "Leshyans Mozilla Poblek 2.0"
+
+#: src/adw-about-dialog.c:230 src/adw-about-window.c:225
+msgid "BSD Zero-Clause License"
+msgstr "Leshyans BSD 0-Clause"
+
+#: src/adw-about-dialog.c:570 src/adw-about-window.c:560
+msgid "Code by"
+msgstr "Kod gans"
+
+#: src/adw-about-dialog.c:571 src/adw-about-window.c:561
+msgid "Design by"
+msgstr "Desin gans"
+
+#: src/adw-about-dialog.c:572 src/adw-about-window.c:562
+msgid "Artwork by"
+msgstr "Artweyth gans"
+
+#: src/adw-about-dialog.c:573 src/adw-about-window.c:563
+msgid "Documentation by"
+msgstr "Kowethlyvrow gans"
+
+#: src/adw-about-dialog.c:574 src/adw-about-window.c:564
+msgid "Translated by"
+msgstr "Treylys gans"
+
+#. Translators: this is the license preamble; the string at the end
+#. * contains the name of the license as link text.
+#.
+#: src/adw-about-dialog.c:603 src/adw-about-window.c:593
+#, c-format
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"An app ma dos gans mewgh vytholl. Gweles an <a href=\"%s\">%s</a> rag "
+"manylyon."
+
+#: src/adw-about-dialog.c:681 src/adw-about-window.c:671
+msgid "This Application"
+msgstr "An App Ma"
+
+#: src/adw-about-dialog.c:983 src/adw-about-window.c:973
+#, c-format
+msgid "Version %s"
+msgstr "Versyon %s"
+
+#: src/adw-about-dialog.c:1009 src/adw-about-window.c:999
+msgid "Unable to parse release notes:"
+msgstr "Ny yllir redya notennow dyllans:"
+
+#: src/adw-about-dialog.c:1015 src/adw-about-window.c:1005
+#, c-format
+msgid "Line: %d, character: %d"
+msgstr "Linen: %d, lytheren: %d"
+
+#: src/adw-about-dialog.c:1419 src/adw-about-window.c:1266
+msgid "Copied to clipboard"
+msgstr "Kopys war astel glypp"
+
+#: src/adw-about-dialog.c:1446 src/adw-about-window.c:1294
+msgid "Unable to save debugging information"
+msgstr "Ny yllir sawya kedhlow prevessans"
+
+#: src/adw-about-dialog.c:1451 src/adw-about-window.c:1299
+#: src/adw-sheet-controls.c:127
+msgid "Close"
+msgstr "Degea"
+
+#: src/adw-about-dialog.c:1468 src/adw-about-window.c:1315
+msgid "Save debugging information"
+msgstr "Sawya kedhlow prevessans"
+
+#: src/adw-about-dialog.c:2311
+#, c-format
+msgid "Other Apps by %s"
+msgstr "Appys Moy gans %s"
+
+#: src/adw-about-dialog.c:2317
+msgid "Other Apps"
+msgstr "Appys Moy"
+
+#: src/adw-about-dialog.ui:5 src/adw-about-window.ui:5
+msgid "About"
+msgstr "A-dro Dhyn"
+
+#: src/adw-about-dialog.ui:88 src/adw-about-window.ui:91
+msgid "What’s _New"
+msgstr "Pyth yw _Nowydh"
+
+#: src/adw-about-dialog.ui:104 src/adw-about-window.ui:107
+msgid "_Details"
+msgstr "_Manylyon"
+
+#: src/adw-about-dialog.ui:120 src/adw-about-dialog.ui:324
+#: src/adw-about-window.ui:123 src/adw-about-window.ui:322
+msgid "_Website"
+msgstr "_Gwiasva"
+
+#: src/adw-about-dialog.ui:135 src/adw-about-window.ui:138
+msgid "_Support Questions"
+msgstr "Govynnow _Skoodhyans"
+
+#: src/adw-about-dialog.ui:144 src/adw-about-window.ui:147
+msgid "_Report an Issue"
+msgstr "_Derivas Kudyn"
+
+#: src/adw-about-dialog.ui:153 src/adw-about-window.ui:156
+msgid "_Troubleshooting"
+msgstr "_Prevessans"
+
+#: src/adw-about-dialog.ui:173 src/adw-about-window.ui:176
+msgid "_Credits"
+msgstr "_Aswonans"
+
+#: src/adw-about-dialog.ui:189 src/adw-about-window.ui:192
+msgid "_Legal"
+msgstr "_Laghel"
+
+#: src/adw-about-dialog.ui:205 src/adw-about-window.ui:208
+msgid "_Acknowledgements"
+msgstr "_Aswonansow"
+
+#: src/adw-about-dialog.ui:240 src/adw-about-window.ui:238
+msgid "What’s New"
+msgstr "Pyth yw Nowydh"
+
+#: src/adw-about-dialog.ui:286 src/adw-about-window.ui:284
+msgid "Details"
+msgstr "Manylyon"
+
+#: src/adw-about-dialog.ui:344 src/adw-about-window.ui:342
+msgid "Troubleshooting"
+msgstr "Prevessans"
+
+#: src/adw-about-dialog.ui:367 src/adw-about-window.ui:365
+msgid ""
+"To assist in troubleshooting, you can view your debugging information. "
+"Providing this information to the application developers can help diagnose "
+"any problems you encounter when you report an issue."
+msgstr ""
+"Rag gweres gans ow prevessa, ty a yll gweles dha kedhlow prevessans. Ow "
+"provia an kedhlow ma dhe'n awtours app a yll gweres gans ow diagnosa neb "
+"kudynnow dyerbynnys pan ow derivas kudyn."
+
+#: src/adw-about-dialog.ui:378 src/adw-about-window.ui:376
+msgid "_Debugging Information"
+msgstr "_Kedhlow Prevessans"
+
+#: src/adw-about-dialog.ui:405 src/adw-about-window.ui:403
+msgid "Debugging Information"
+msgstr "Kedhlow Prevessans"
+
+#: src/adw-about-dialog.ui:453 src/adw-about-window.ui:451
+msgid "_Copy Text"
+msgstr "_Kopia Tekst"
+
+#: src/adw-about-dialog.ui:461 src/adw-about-window.ui:459
+msgid "_Save As…"
+msgstr "_Sawya Avel…"
+
+#: src/adw-about-dialog.ui:474 src/adw-about-window.ui:472
+msgid "Credits"
+msgstr "Aswonans"
+
+#: src/adw-about-dialog.ui:505 src/adw-about-window.ui:503
+msgid "Legal"
+msgstr "Laghel"
+
+#: src/adw-about-dialog.ui:537 src/adw-about-window.ui:535
+msgid "Acknowledgements"
+msgstr "Aswonansow"
+
+#: src/adw-adaptive-preview.c:387
+msgid "Screenshot Copied to Clipboard"
+msgstr "Skrin-Imach Kopys war Astel Glypp"
+
+#: src/adw-adaptive-preview.ui:29 src/adw-inspector-page.c:67
+#: src/adw-inspector-page.ui:88
+msgid "Adaptive Preview"
+msgstr "Ragwolok Desedhadow"
+
+#: src/adw-adaptive-preview.ui:38
+msgid "Display"
+msgstr "Displetyans"
+
+#: src/adw-adaptive-preview.ui:41
+msgid "Device"
+msgstr "Devis"
+
+#: src/adw-adaptive-preview.ui:47
+msgid "Width"
+msgstr "Lester"
+
+#: src/adw-adaptive-preview.ui:61
+msgid "Height"
+msgstr "Ughelder"
+
+#: src/adw-adaptive-preview.ui:75
+msgid "Rotate"
+msgstr "Rosella"
+
+#: src/adw-adaptive-preview.ui:78 src/adw-adaptive-preview.ui:80
+msgid "Rotate Left"
+msgstr "Rosella Kledh"
+
+#: src/adw-adaptive-preview.ui:90 src/adw-adaptive-preview.ui:92
+msgid "Rotate Right"
+msgstr "Rosella Dyghow"
+
+#: src/adw-adaptive-preview.ui:106
+msgid "Shell"
+msgstr "Shell"
+
+#: src/adw-adaptive-preview.ui:109
+msgid "Preset"
+msgstr "Ragsett"
+
+#: src/adw-adaptive-preview.ui:115
+msgid "Top Bar"
+msgstr "Barr A-wartha"
+
+#: src/adw-adaptive-preview.ui:129
+msgid "Bottom Bar"
+msgstr "Barr A-woles"
+
+#: src/adw-adaptive-preview.ui:143
+msgid "Window Controls"
+msgstr "Routyansow Fenester"
+
+#: src/adw-adaptive-preview.ui:151
+msgid "View"
+msgstr "Gweles"
+
+#: src/adw-adaptive-preview.ui:154
+msgid "Scale to Fit"
+msgstr "Skeulya rag Desedha"
+
+#. Translators: screen bezel, e.g. on a phone
+#: src/adw-adaptive-preview.ui:161
+msgid "Highlight Bezel"
+msgstr "Golowboyntya Bezel"
+
+#: src/adw-adaptive-preview.ui:190
+msgid "Toggle Sidebar"
+msgstr "Dewis Bordh Lestri"
+
+#: src/adw-adaptive-preview.ui:200
+msgid "Exit"
+msgstr "Kwytya"
+
+#: src/adw-adaptive-preview.ui:210
+msgid "Take Screenshot"
+msgstr "Kemeres Skrin-Imach"
+
+#: src/adw-adaptive-preview-presets-private.h:24
+msgctxt "Shell preset"
+msgid "Desktop Shell"
+msgstr "Shell Desktop"
+
+#: src/adw-adaptive-preview-presets-private.h:25
+msgctxt "Shell preset"
+msgid "Mobile Shell"
+msgstr "Shell Klapkodh"
+
+#: src/adw-adaptive-preview-presets-private.h:26
+msgctxt "Shell preset"
+msgid "Phosh"
+msgstr "Phosh"
+
+#: src/adw-adaptive-preview-presets-private.h:27
+msgctxt "Shell preset"
+msgid "Fullscreen"
+msgstr "Leun-skrin"
+
+#: src/adw-adaptive-preview-presets-private.h:28
+msgctxt "Shell preset"
+msgid "Custom"
+msgstr "A-vusur"
+
+#: src/adw-adaptive-preview-presets-private.h:90
+msgctxt "Device preset"
+msgid "Generic Phone"
+msgstr "Klapkodh Ollgemmyn"
+
+#: src/adw-adaptive-preview-presets-private.h:99
+msgctxt "Device preset"
+msgid "Generic Tablet"
+msgstr "Leghen Ollgemmyn"
+
+#: src/adw-adaptive-preview-presets-private.h:108
+msgctxt "Device preset"
+msgid "OnePlus 6"
+msgstr "OnePlus 6"
+
+#: src/adw-adaptive-preview-presets-private.h:117
+msgctxt "Device preset"
+msgid "OnePlus 6T"
+msgstr "OnePlus 6T"
+
+#: src/adw-adaptive-preview-presets-private.h:126
+msgctxt "Device preset"
+msgid "Custom"
+msgstr "A-vusur"
+
+#: src/adw-avatar.c:159
+#, c-format
+msgid "Avatar of %s"
+msgstr "Imach a %s"
+
+#: src/adw-back-button.c:313 src/adw-back-button.c:411
+#: src/adw-back-button.c:521
+msgid "Back"
+msgstr "Dehweles"
+
+#. Translators: This is a placeholder text of the search entry from AdwComboRow. It should be phrased as a verb.
+#: src/adw-combo-row.ui:50 src/adw-preferences-dialog.ui:86
+#: src/adw-preferences-window.ui:97
+msgid "Search"
+msgstr "Hwilas"
+
+#: src/adw-entry-row.ui:96
+msgid "Apply"
+msgstr "Gweytha"
+
+#: src/adw-indicator-bin.c:78
+msgctxt "view switcher button badge"
+msgid "Attention requested."
+msgstr "Attendyans pejys."
+
+#: src/adw-indicator-bin.c:81
+msgctxt "view switcher button badge"
+msgid "Has a badge: more than 999."
+msgstr "Y’s teves arwodhik: moy es 999."
+
+#: src/adw-indicator-bin.c:83
+#, c-format
+msgctxt "view switcher button badge"
+msgid "Has a badge: %u."
+msgstr "Y’s teves arwodhik: %u."
+
+#: src/adw-inspector-page.c:131
+msgid "No Preference"
+msgstr "Dewis Vyth"
+
+#: src/adw-inspector-page.c:133
+msgid "Prefer Dark"
+msgstr "Preferya Du"
+
+#: src/adw-inspector-page.c:135
+msgid "Prefer Light"
+msgstr "Preferya Gwynn"
+
+#: src/adw-inspector-page.c:148
+msgid "Blue"
+msgstr "Blou"
+
+#: src/adw-inspector-page.c:150
+msgid "Teal"
+msgstr "Gwerlas"
+
+#: src/adw-inspector-page.c:152
+msgid "Green"
+msgstr "Gwyrdh"
+
+#: src/adw-inspector-page.c:154
+msgid "Yellow"
+msgstr "Melyn"
+
+#: src/adw-inspector-page.c:156
+msgid "Orange"
+msgstr "Rudh-velyn"
+
+#: src/adw-inspector-page.c:158
+msgid "Red"
+msgstr "Rudh"
+
+#: src/adw-inspector-page.c:160
+msgid "Pink"
+msgstr "Rudh-wynn"
+
+#: src/adw-inspector-page.c:162
+msgid "Purple"
+msgstr "Purpur"
+
+#: src/adw-inspector-page.c:164
+msgid "Slate"
+msgstr "Loos"
+
+#. Translators: The name of the library, not the stylesheet
+#: src/adw-inspector-page.c:303
+msgid "Adwaita"
+msgstr "Adwaita"
+
+#: src/adw-inspector-page.ui:10
+msgid "System Appearance"
+msgstr "Gis System"
+
+#: src/adw-inspector-page.ui:11
+msgid ""
+"Override settings for this application. They will be reset upon closing the "
+"inspector."
+msgstr ""
+"Aslea settyansow rag an app ma. Y's a wra bos dasgorrys wosa ow degea an "
+"hwithrer."
+
+#: src/adw-inspector-page.ui:14
+msgid "System Supports Color Schemes"
+msgstr "System Skoodhya Gisyow Liw"
+
+#: src/adw-inspector-page.ui:20
+msgid "Preferred Color Scheme"
+msgstr "Gis Liw Preferys"
+
+#: src/adw-inspector-page.ui:39
+msgid "Accent Color"
+msgstr "Liw Chif"
+
+#: src/adw-inspector-page.ui:42
+msgid "System Supports Accent Colors"
+msgstr "System Skoodhya Liwyow Chif"
+
+#: src/adw-inspector-page.ui:48
+msgid "Preferred Accent Color"
+msgstr "Liw Chif Preferys"
+
+#: src/adw-inspector-page.ui:77
+msgid "Accessibility"
+msgstr "Hedhadewder"
+
+#: src/adw-inspector-page.ui:80
+msgid "High Contrast"
+msgstr "Gorthwedh Ughel"
+
+#: src/adw-inspector-page.ui:89
+msgid ""
+"Test the app at specific screen sizes to simulate a mobile environment. Open "
+"the preview directly on any supported window using Shift+Ctrl+M"
+msgstr ""
+"Previ an app yn brasteryow skrin komparek rag hevelebya kerghynnedh "
+"klapkodh. Ygeri an ragwolok war neb fenester skoodhys ow devndyhya "
+"Shift+Ctrl+M"
+
+#: src/adw-link-row.c:327
+msgid "_Open Link"
+msgstr "_Ygeri Gorgevren"
+
+#: src/adw-link-row.c:328
+msgid "Copy _Link Address"
+msgstr "Kopia _Trigva Gorgevren"
+
+#: src/adw-password-entry-row.c:70
+msgid "Hide Password"
+msgstr "Kudha Ger-Tremena"
+
+#: src/adw-password-entry-row.c:74
+msgid "Show Password"
+msgstr "Diskwedhes Ger-Tremena"
+
+#: src/adw-password-entry-row.c:168
+msgid "Caps Lock is on"
+msgstr "Caps Lock yw byw"
+
+#: src/adw-password-entry-row.c:176
+msgid "_Show Password"
+msgstr "_Diskwedhes Ger-Tremena"
+
+#: src/adw-preferences-dialog.c:217 src/adw-preferences-window.c:218
+msgid "Untitled page"
+msgstr "Folen antitlys"
+
+#: src/adw-preferences-dialog.ui:5 src/adw-preferences-window.ui:8
+msgid "Preferences"
+msgstr "Settyansow"
+
+#: src/adw-preferences-dialog.ui:70 src/adw-preferences-window.ui:81
+msgid "Search preferences"
+msgstr "Hwilas settyansow"
+
+#: src/adw-preferences-dialog.ui:154 src/adw-preferences-window.ui:164
+#: src/adw-shortcuts-dialog.ui:79
+msgid "No Results Found"
+msgstr "Sewyansow Kavas Vyth"
+
+#: src/adw-preferences-dialog.ui:155 src/adw-shortcuts-dialog.ui:80
+#: src/adw-tab-overview.ui:111
+msgid "Try a different search"
+msgstr "Assaya hwithrans aral"
+
+#: src/adw-preferences-window.ui:165
+msgid "Try a different search."
+msgstr "Assaya hwithrans aral."
+
+#: src/adw-sheet-controls.c:129
+msgid "Close the window"
+msgstr "Degea an fenester"
+
+#. Translators: This string is used to mark left/right variants of modifier
+#. * keys in the shortcut window (e.g. Control_L vs Control_R). Please keep
+#. * this string very short, ideally just a single character, since it will
+#. * be rendered as part of the key.
+#.
+#: src/adw-shortcut-label.c:133
+msgctxt "keyboard side marker"
+msgid "L"
+msgstr "K"
+
+#. Translators: This string is used to mark left/right variants of modifier
+#. * keys in the shortcut window (e.g. Control_L vs Control_R). Please keep
+#. * this string very short, ideally just a single character, since it will
+#. * be rendered as part of the key.
+#.
+#: src/adw-shortcut-label.c:146
+msgctxt "keyboard side marker"
+msgid "R"
+msgstr "D"
+
+#: src/adw-shortcuts-dialog.ui:5
+msgid "Keyboard Shortcuts"
+msgstr "Kesunyansow Bysowek"
+
+#: src/adw-shortcuts-dialog.ui:20 src/adw-shortcuts-dialog.ui:22
+msgid "Search shortcuts"
+msgstr "Hwilas kesunyansow"
+
+#: src/adw-shortcut-row.c:257
+msgid "No Shortcut"
+msgstr "Kesunyans Vyth"
+
+#: src/adw-split-button.c:531 src/adw-split-button.c:1048
+msgid "More Options"
+msgstr "Moy Dewisyow"
+
+#: src/adw-tab-button.ui:7
+msgid "View Open Tabs"
+msgstr "Gweles Tabbow Ygor"
+
+#. Translators: Tab overview title, %u is the number of open tabs
+#: src/adw-tab-overview.c:965
+#, c-format
+msgid "%u Tab"
+msgid_plural "%u Tabs"
+msgstr[0] "%u Tabb"
+msgstr[1] "%u Tabbow"
+
+#: src/adw-tab-overview.ui:20
+msgid "Search Tabs"
+msgstr "Hwilas Tabbow"
+
+#: src/adw-tab-overview.ui:50
+msgid "Search tabs"
+msgstr "Hwilas tabbow"
+
+#: src/adw-tab-overview.ui:97
+msgid "No Open Tabs"
+msgstr "Tabbow Ygor Vyth"
+
+#: src/adw-tab-overview.ui:110
+msgid "No Tabs Found"
+msgstr "Tabbys Kavas Vyth"
+
+#: src/adw-tab-overview.ui:131
+msgid "New _Tab"
+msgstr "_Tabb Nowydh"
+
+#: src/adw-tab-thumbnail.ui:39 src/adw-tab.ui:75
+msgid "Close Tab"
+msgstr "Degea Tabb"
+
+#: src/adw-toast-overlay.c:286
+#, c-format
+msgid "A toast appeared: %s, has a button: %s"
+msgstr "Gwarnyans apperys: %s, y's teves boton: %s"
+
+#: src/adw-toast-overlay.c:289
+#, c-format
+msgid "A toast appeared: %s"
+msgstr "Gwarnyans apperys: %s"
+
+#: src/adw-toast-overlay.c:291
+#, c-format
+msgid "A toast appeared, has a button: %s"
+msgstr "Gwarnyans apperys, y's teves boton: %s"
+
+#: src/adw-toast-overlay.c:294
+msgid "A toast appeared"
+msgstr "Gwarnyans apperys"
+
+#: src/adw-toast-widget.ui:66
+msgid "Dismiss"
+msgstr "Amyttya"

@@ -1,0 +1,12 @@
+data/com.example.Instances.desktop.in
+data/ui/window.ui
+data/ui/sidebar.ui
+data/ui/download-dialog.ui
+instances/controller.py
+instances/conversations.py
+instances/ollama.py
+instances/service.py
+instances/ui/window.py
+instances/ui/sidebar.py
+instances/ui/download_dialog.py
+instances/application.py

@@ -1,0 +1,270 @@
+%scale_trough {
+  transition: $button_transition;
+  border-radius: 99px;
+  background-color: $trough_color;
+
+  @media (prefers-contrast: more) {
+    background-color: $trough_color_hc;
+    box-shadow: inset 0 0 0 1px $border_color;
+  }
+}
+
+%scale_highlight {
+  transition: $button_transition;
+  border-radius: 99px;
+  background-color: var(--accent-bg-color);
+  color: var(--accent-fg-color);
+}
+
+scale {
+  // sizing
+  $_marks_length: 4px;
+  $_marks_distance: 2px;
+  $_marks_size: $_marks_length + $_marks_distance;
+
+  min-height: 10px;
+  min-width: 10px;
+  padding: 6px;
+
+  @include focus-ring("> trough > slider", $offset: 0);
+
+  ---slider-border-color: RGB(0 0 6 / 10%);
+
+  @media (prefers-contrast: more) {
+    ---slider-border-color: RGB(0 0 6 / 35%);
+  }
+
+  > trough {
+    @extend %scale_trough;
+
+    // the colored part of the backing bit
+    > highlight { @extend %scale_highlight; }
+
+    // this is another differently styled part of the backing bit, the most relevant use case is for example
+    // in media player to indicate how much video stream as been cached
+    > fill {
+      @extend %scale_trough;
+    }
+
+    > slider {
+      background-color: $slider_color;
+      box-shadow: 0 0 0 1px var(---slider-border-color), 0 2px 4px RGB(0 0 6 / 20%);
+
+      border-radius: 100%;
+
+      min-width: 20px;
+      min-height: 20px;
+    }
+  }
+
+  > marks {
+    indicator {
+      background-color: color-mix(in srgb, currentColor var(--dim-opacity), transparent);
+      border-radius: 99px;
+    }
+
+    label {
+      color: color-mix(in srgb, currentColor var(--dim-opacity), transparent);
+    }
+  }
+
+  &:hover, &:active {
+    > trough {
+      background-color: $trough_hover_color;
+
+      @media (prefers-contrast: more) {
+        background-color: $trough_hover_color_hc;
+      }
+
+      > highlight {
+        background-image: image(color-mix(in srgb, currentColor 10%, transparent));
+      }
+
+      > slider {
+        background-color: $slider_hover_color;
+      }
+    }
+  }
+
+  &:disabled {
+    filter: Opacity(var(--disabled-opacity));
+
+    label {
+      filter: none;
+    }
+
+    > trough > slider {
+      box-shadow: 0 0 0 1px var(---slider-border-color), 0 2px 4px transparent;
+      outline-color: RGB(0 0 6 / 20%);
+
+      @media (prefers-contrast: more) {
+        outline-color: RGB(0 0 6 / 50%);
+      }
+    }
+  }
+
+  > value {
+    @extend .dimmed;
+    @extend .numeric;
+  }
+
+  &.horizontal {
+    padding-left: 0;
+    padding-right: 0;
+
+    > trough {
+      margin: 8px 0;
+
+      > slider {
+        // the slider is inside the trough, so to have make it bigger there's a negative margin
+        margin: -8px 0;
+      }
+    }
+
+    > marks {
+      margin: $_marks_distance 0;
+
+      indicator {
+        min-height: $_marks_length;
+        min-width: 2px;
+      }
+    }
+
+    &:not(.marks-before) {
+      > value.top { margin-bottom: 3px; }
+    }
+
+    &:not(.marks-after) {
+      > value.bottom { margin-top: 3px; }
+    }
+
+    > value.left  { margin-right: 6px; }
+    > value.right { margin-left: 6px; }
+
+    &.fine-tune {
+      > trough {
+        // to make the trough grow vertically in fine-tune mode
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+        > slider {
+          margin-top: -5px;
+          margin-bottom: -5px;
+        }
+      }
+
+      > marks {
+        &.top    { margin-top: -1px; }
+        &.bottom { margin-bottom: -1px; }
+      }
+    }
+
+    &.marks-before {
+      padding-top: 0px;
+
+      > trough {
+        margin-top: 0;
+      }
+    }
+
+    &.marks-after {
+      padding-bottom: 0px;
+
+      > trough {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &.vertical {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    > trough {
+      margin: 0 8px;
+
+      > slider {
+        // the slider is inside the trough, so to have make it bigger there's a negative margin
+        margin: 0 -8px;
+      }
+    }
+
+    > marks {
+      margin: 0 $_marks_distance;
+
+      indicator {
+        min-height: 2px;
+        min-width: $_marks_length;
+      }
+    }
+
+    &:not(.marks-before) {
+      > value.left { margin-right: 3px; }
+    }
+
+    &:not(.marks-after) {
+      > value.right { margin-left: 3px; }
+    }
+
+    > value.top    { margin-bottom: 6px; }
+    > value.bottom { margin-top: 6px; }
+
+    &.fine-tune {
+      > trough {
+        // to make the trough grow horizontally in fine-tune mode
+        margin-left: 5px;
+        margin-right: 5px;
+
+        > slider {
+          margin-left: -5px;
+          margin-right: -5px;
+        }
+      }
+
+      > marks {
+        &.top    { margin-left: -1px; }
+        &.bottom { margin-right: -1px; }
+      }
+    }
+
+    &.marks-before {
+      padding-left: 0px;
+
+      > trough {
+        margin-left: 0;
+      }
+    }
+
+    &.marks-after {
+      padding-right: 0px;
+
+      > trough {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &.color {
+    padding: 0;
+
+    > trough {
+      border: none;
+      background: none;
+      border-radius: 10px;
+
+      > slider {
+        margin: 0;
+        background-color: RGB(255 255 255 / 80%);
+      }
+    }
+
+    &.fine-tune {
+      padding: 2px;
+
+      > trough > slider {
+        margin: -2px;
+      }
+    }
+  }
+}
+

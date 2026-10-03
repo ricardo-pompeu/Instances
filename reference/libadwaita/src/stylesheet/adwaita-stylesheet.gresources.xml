@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/Adwaita/styles">
+    <file>gtk.css</file>
+
+    <file>assets/bullet.svg</file>
+    <file>assets/check.svg</file>
+    <file>assets/dash.svg</file>
+    <file>assets/devel-stripes.svg</file>
+  </gresource>
+
+  <gresource prefix="/org/gtk/libgtk/theme/Adwaita-empty">
+    <file alias='gtk.css'>empty.css</file>
+    <file alias='gtk-dark.css'>empty.css</file>
+    <file alias='gtk-hc.css'>empty.css</file>
+    <file alias='gtk-hc-dark.css'>empty.css</file>
+  </gresource>
+</gresources>

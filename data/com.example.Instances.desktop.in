@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Instances
+Comment=Converse com modelos locais do Ollama
+Exec=instances
+Icon=com.example.Instances
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+Keywords=Ollama;IA;Chat;
+StartupNotify=true

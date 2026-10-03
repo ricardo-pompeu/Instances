@@ -1,0 +1,1521 @@
+# Brazilian Portuguese translation for libadwaita.
+# Copyright (C) 2025 libadwaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadwaita package.
+# Enrico Nicoletto <liverig@gmail.com>, 2020-2021.
+# Maíra Canal <mairacanal@riseup.net>, 2022
+# Edson A. Santos <eda.santos2@gmail.com>, 2022.
+# Leônidas Araújo <leorusvellt@hotmail.com>, 2023.
+# Filipe Motta <luizfilipemotta@gmail.com>, 2024.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2020-2025.
+# Juliano de Souza Camargo <julianosc@pm.me>, 2026.
+# Álvaro Burns <>, 2025-2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libhandy master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"POT-Creation-Date: 2026-08-01 06:46+0000\n"
+"PO-Revision-Date: 2026-08-01 11:25-0300\n"
+"Last-Translator: Álvaro Burns <>\n"
+"Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 50.0\n"
+"X-DL-Team: pt_BR\n"
+"X-DL-Module: libadwaita\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: Translating\n"
+"X-DL-Lang: pt_BR\n"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:219 src/adw-about-window.c:210
+msgid "GNU General Public License, version 2 or later"
+msgstr "Licença Pública Geral GNU, versão 2 ou posterior"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:221 src/adw-about-window.c:212
+msgid "GNU General Public License, version 3 or later"
+msgstr "Licença Pública Geral GNU, versão 3 ou posterior"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:223 src/adw-about-window.c:214
+msgid "GNU Lesser General Public License, version 2.1 or later"
+msgstr "Licença Pública Geral GNU Menor, versão 2.1 ou posterior"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:225 src/adw-about-window.c:216
+msgid "GNU Lesser General Public License, version 3 or later"
+msgstr "Licença Pública Geral GNU Menor, versão 3 ou posterior"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:227 src/adw-about-window.c:218
+msgid "BSD 2-Clause License"
+msgstr "Licença BSD de 2 cláusulas"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:229 src/adw-about-window.c:220
+msgid "The MIT License (MIT)"
+msgstr "Licença MIT"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:231 src/adw-about-window.c:222
+msgid "Artistic License 2.0"
+msgstr "Licença Artística 2.0"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:233 src/adw-about-window.c:224
+msgid "GNU General Public License, version 2 only"
+msgstr "Licença Pública Geral GNU, somente versão 2"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:235 src/adw-about-window.c:226
+msgid "GNU General Public License, version 3 only"
+msgstr "Licença Pública Geral GNU, somente versão 3"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:237 src/adw-about-window.c:228
+msgid "GNU Lesser General Public License, version 2.1 only"
+msgstr "Licença Pública Geral GNU Menor, somente versão 2.1"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:239 src/adw-about-window.c:230
+msgid "GNU Lesser General Public License, version 3 only"
+msgstr "Licença Pública Geral GNU Menor, somente versão 3"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:241 src/adw-about-window.c:232
+msgid "GNU Affero General Public License, version 3 or later"
+msgstr "Licença Pública Geral GNU Affero, versão 3 ou posterior"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:243 src/adw-about-window.c:234
+msgid "GNU Affero General Public License, version 3 only"
+msgstr "Licença Pública Geral GNU Affero, somente versão 3"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:245 src/adw-about-window.c:236
+msgid "BSD 3-Clause License"
+msgstr "Licença BSD de 3 cláusulas"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:247 src/adw-about-window.c:238
+msgid "Apache License, Version 2.0"
+msgstr "Licença Apache, Versão 2.0"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:249 src/adw-about-window.c:240
+msgid "Mozilla Public License 2.0"
+msgstr "Licença Pública Mozilla 2.0"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:251 src/adw-about-window.c:242
+msgid "BSD Zero-Clause License"
+msgstr "Licença de Zero Cláusula do BSD"
+
+#. Translators: developers section title in credits
+#: src/adw-about-dialog.c:611 src/adw-about-window.c:601
+msgid "Code by"
+msgstr "Criado por"
+
+#. Translators: designers section title in credits
+#: src/adw-about-dialog.c:613 src/adw-about-window.c:603
+msgid "Design by"
+msgstr "Idealizado por"
+
+#. Translators: artists section title in credits
+#: src/adw-about-dialog.c:615 src/adw-about-window.c:605
+msgid "Artwork by"
+msgstr "Arte por"
+
+#. Translators: documenters section title in credits
+#: src/adw-about-dialog.c:617 src/adw-about-window.c:607
+msgid "Documentation by"
+msgstr "Documentado por"
+
+#. Translators: translators section title in credits
+#: src/adw-about-dialog.c:619 src/adw-about-window.c:609
+msgid "Translated by"
+msgstr "Traduzido por"
+
+#. Translators: this is the license preamble. The 2 variables are the link to
+#. the license and its name. Names are translatable separately, links are
+#. hardcoded.
+#: src/adw-about-dialog.c:648 src/adw-about-window.c:638
+#, c-format
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"Este aplicativo vem sem absolutamente nenhuma garantia. Consulte a <a "
+"href=\"%s\">%s</a> para mais detalhes."
+
+#. Translators: Shown in the legal page when there are multiple sections, in
+#. that case this is the title of the first section, while subsequent titles
+#. are app-provided. For example:
+#. This Application: Copyright, license.
+#. Dependency 1: Copyright, license.
+#. Dependency 2: Copyright, license.
+#: src/adw-about-dialog.c:732 src/adw-about-window.c:722
+msgid "This Application"
+msgstr "Este aplicativo"
+
+#. Translators: title on the "What's new" page. The variable is the
+#. specified version: e.g. "Version 1.2.3"
+#: src/adw-about-dialog.c:1037 src/adw-about-window.c:1027
+#, c-format
+msgid "Version %s"
+msgstr "Versão %s"
+
+#. Translators: error message printed when release notes are invalid.
+#. The first variable is error message, then the two numbers are line number
+#. and the character number within the line.
+#: src/adw-about-dialog.c:1061 src/adw-about-window.c:1051
+#, c-format
+msgid "Unable to parse release notes: %s at line %d, char %d"
+msgstr ""
+"Não foi possível analisar as notas de lançamento: %s na linha %d, caractere "
+"%d"
+
+#. Translators: this is an error message, displayed when the release notes
+#. are invalid. It will appear in the UI, instead of release notes.
+#. The error message will be on the next line, followed by the
+#. "Line: %d, character: %d" string.
+#: src/adw-about-dialog.c:1071 src/adw-about-window.c:1061
+msgid "Unable to parse release notes:"
+msgstr "Não foi possível analisar as notas da versão:"
+
+#. Translators: shown after the error when release notes couldn't be parsed.
+#. The first variable is the line number, the second one is the position
+#. within the line.
+#: src/adw-about-dialog.c:1080 src/adw-about-window.c:1070
+#, c-format
+msgid "Line: %d, character: %d"
+msgstr "Linha: %d, caractere: %d"
+
+#. Translators: app developers can showcase their other apps in the about
+#. dialog. This is the title of that section. The variable is the developer
+#. name.
+#: src/adw-about-dialog.c:1269
+#, c-format
+msgid "Other Apps by %s"
+msgstr "Outros aplicativos por %s"
+
+#. Translators: app developers can showcase their other apps in the about
+#. dialog. This is the title of that section when the developer name has not
+#. been specified.
+#: src/adw-about-dialog.c:1277
+msgid "Other Apps"
+msgstr "Outros aplicativos"
+
+#. Translators: shown in a toast in response
+#. to copying version or debug information
+#: src/adw-about-dialog.c:1518 src/adw-about-window.c:1334
+msgid "Copied to clipboard"
+msgstr "Copiado para área de transferência"
+
+#. Translators: error message, shown when saving debug info fails
+#: src/adw-about-dialog.c:1546 src/adw-about-window.c:1362
+msgid "Unable to save debugging information"
+msgstr "Não foi possível salvar a informação de depuração"
+
+#. Translators: label of the close button in an error dialog
+#. Translators: accessible label of the sheet close button
+#: src/adw-about-dialog.c:1552 src/adw-about-window.c:1370
+#: src/adw-sheet-controls.c:128
+msgid "Close"
+msgstr "Fechar"
+
+#. Translators: title of the file chooser that appears when saving debug info
+#: src/adw-about-dialog.c:1570 src/adw-about-window.c:1387
+msgid "Save debugging information"
+msgstr "Salvar informações de depuração"
+
+#. Translators: about dialog title
+#: src/adw-about-dialog.ui:6 src/adw-about-window.ui:6
+msgid "About"
+msgstr "Sobre"
+
+#. Translators: title of the row that opens the release notes page
+#: src/adw-about-dialog.ui:102 src/adw-about-window.ui:105
+msgid "What’s _New"
+msgstr "O que há de _novo"
+
+#. Translators: title of the row that opens the details page (comment, website etc)
+#: src/adw-about-dialog.ui:119 src/adw-about-window.ui:122
+msgid "_Details"
+msgstr "_Detalhes"
+
+#. Translators: title of the row that opens the app's website
+#: src/adw-about-dialog.ui:136 src/adw-about-dialog.ui:350
+#: src/adw-about-window.ui:139 src/adw-about-window.ui:348
+msgid "_Website"
+msgstr "Página _web"
+
+#. Translators: title of the row that opens the app's support forum
+#: src/adw-about-dialog.ui:152 src/adw-about-window.ui:155
+msgid "_Support Questions"
+msgstr "Dúvidas de suporte"
+
+#. Translators: title of the row that opens the app's issue tracker
+#: src/adw-about-dialog.ui:162 src/adw-about-window.ui:165
+msgid "_Report an Issue"
+msgstr "_Relatar um problema"
+
+#. Translators: title of the row that opens the troubleshooting page
+#: src/adw-about-dialog.ui:172 src/adw-about-window.ui:175
+msgid "_Troubleshooting"
+msgstr "Solução de _problemas"
+
+#. Translators: title of the row that opens the credits page
+#: src/adw-about-dialog.ui:193 src/adw-about-window.ui:196
+msgid "_Credits"
+msgstr "_Créditos"
+
+#. Translators: title of the row that opens the legal page (copyright, license)
+#: src/adw-about-dialog.ui:210 src/adw-about-window.ui:213
+msgid "_Legal"
+msgstr "Aviso _legal"
+
+#. Translators: title of the row that opens the acknowledgements page
+#. (like credits but separate, e.g. for patreon backers)
+#: src/adw-about-dialog.ui:228 src/adw-about-window.ui:231
+msgid "_Acknowledgements"
+msgstr "_Reconhecimento"
+
+#. Translators: title of the release notes page
+#: src/adw-about-dialog.ui:264 src/adw-about-window.ui:262
+msgid "What’s New"
+msgstr "O que há de novo"
+
+#. Translators: title of the details page (comment, website etc)
+#: src/adw-about-dialog.ui:311 src/adw-about-window.ui:309
+msgid "Details"
+msgstr "Detalhes"
+
+#. Translators: title of the troubleshooting page
+#: src/adw-about-dialog.ui:371 src/adw-about-window.ui:369
+msgid "Troubleshooting"
+msgstr "Solução de problemas"
+
+#. Translators: comment at the top of the troubleshooting page
+#: src/adw-about-dialog.ui:395 src/adw-about-window.ui:393
+msgid ""
+"To assist in troubleshooting, you can view your debugging information. "
+"Providing this information to the application developers can help diagnose "
+"any problems you encounter when you report an issue."
+msgstr ""
+"Para ajudar na solução de problemas, você pode visualizar as informações de "
+"depuração. Fornecer essas informações aos desenvolvedores de aplicativos "
+"pode ajudar a diagnosticar quaisquer problemas encontrados ao relatar um "
+"problema."
+
+#. Translators: title of the row that opens the debug information page
+#: src/adw-about-dialog.ui:407 src/adw-about-window.ui:405
+msgid "_Debugging Information"
+msgstr "Informações de _depuração"
+
+#. Translators: title of the debug information page
+#: src/adw-about-dialog.ui:435 src/adw-about-window.ui:433
+msgid "Debugging Information"
+msgstr "Informações de depuração"
+
+#. Translators: label of a button on the debug information page
+#: src/adw-about-dialog.ui:484 src/adw-about-window.ui:482
+msgid "_Copy Text"
+msgstr "_Copiar texto"
+
+#. Translators: label of a button on the debug information page
+#: src/adw-about-dialog.ui:493 src/adw-about-window.ui:491
+msgid "_Save As…"
+msgstr "_Salvar como…"
+
+#. Translators: title of the credits page
+#: src/adw-about-dialog.ui:507 src/adw-about-window.ui:505
+msgid "Credits"
+msgstr "Créditos"
+
+#. Translators: title of the legal page (copyright, license)
+#: src/adw-about-dialog.ui:539 src/adw-about-window.ui:537
+msgid "Legal"
+msgstr "Aviso legal"
+
+#. Translators: title of the acknowledgements page
+#. (like credits but separate, e.g. for patreon backers)
+#: src/adw-about-dialog.ui:573 src/adw-about-window.ui:571
+msgid "Acknowledgements"
+msgstr "Reconhecimento"
+
+#. Translators: title of the toast that appears after taking a screenshot
+#: src/adw-adaptive-preview.c:392
+msgid "Screenshot copied to clipboard"
+msgstr "Captura de tela copiada para a área de transferência"
+
+#. Translators: the window title for the adaptive preview view,
+#. accessed with Ctrl+Shift+M or from inspector
+#. Translators: tooltip of the buttons in each row in the adaptive preview section
+#. Translators: title of the adaptive preview group in inspector.
+#. This group lists compatible windows and allows to open or close
+#. adaptive preview for them.
+#: src/adw-adaptive-preview.ui:31 src/adw-inspector-page.c:68
+#: src/adw-inspector-page.ui:104
+msgid "Adaptive Preview"
+msgstr "Pré-visualização adaptável"
+
+#. Translators: the title of the device group in the adaptive preview sidebar,
+#. referring to the screen size and bezels of the preview
+#: src/adw-adaptive-preview.ui:42
+msgid "Display"
+msgstr "Tela"
+
+#. Translators: title of the device selector row
+#: src/adw-adaptive-preview.ui:46
+msgid "Device"
+msgstr "Dispositivo"
+
+#. Translators: title of the custom screen width row
+#: src/adw-adaptive-preview.ui:53
+msgid "Width"
+msgstr "Largura"
+
+#. Translators: title of the custom screen height row
+#: src/adw-adaptive-preview.ui:68
+msgid "Height"
+msgstr "Altura"
+
+#. Translators: title of the screen rotation row
+#: src/adw-adaptive-preview.ui:83
+msgid "Rotate"
+msgstr "Rotação"
+
+#. Translators: tooltip of the button that rotates left/counterclockwise
+#: src/adw-adaptive-preview.ui:88
+msgid "Rotate Left"
+msgstr "Gira para esquerda"
+
+#. Translators: tooltip of the button that rotates right/clockwise
+#: src/adw-adaptive-preview.ui:100
+msgid "Rotate Right"
+msgstr "Gira para direita"
+
+#. Translators: title of the shell group in the adaptive preview sidebar,
+#. referring to the top/bottom bars within the preview
+#: src/adw-adaptive-preview.ui:116
+msgid "Shell"
+msgstr "Shell"
+
+#. Translators: title of the shell preset selector row
+#: src/adw-adaptive-preview.ui:120
+msgid "Preset"
+msgstr "Predefinição"
+
+#. Translators: title of the custom top bar height row
+#: src/adw-adaptive-preview.ui:127
+msgid "Top Bar"
+msgstr "Barra superior"
+
+#. Translators: title of the custom bottom bar height row
+#: src/adw-adaptive-preview.ui:142
+msgid "Bottom Bar"
+msgstr "Barra inferior"
+
+#. Translators: title of the window controls switch row -
+#. refers to close/minimize/maximize buttons
+#: src/adw-adaptive-preview.ui:158
+msgid "Window Controls"
+msgstr "Controles da janela"
+
+#. Translators: title of the view group in the adaptive preview sidebar
+#: src/adw-adaptive-preview.ui:167
+msgid "View"
+msgstr "Visualização"
+
+#. Translators: title of the scale to fit option - it selects between
+#. scaling the preview as the window resizes, or having scrollbars instead
+#: src/adw-adaptive-preview.ui:172
+msgid "Scale to Fit"
+msgstr "Escala para ajustar"
+
+#. Translators: title of the "highlight bezel" row -
+#. it makes screen bezel in the preview colored,
+#. so that it doesn't blend with the app when the app
+#. has black background
+#: src/adw-adaptive-preview.ui:182
+msgid "Highlight Bezel"
+msgstr "Moldura de destaque"
+
+#. Translators: tooltip of the button that toggles the preview sidebar
+#: src/adw-adaptive-preview.ui:212
+msgid "Toggle Sidebar"
+msgstr "Alterna barra lateral"
+
+#. Translators: label of the button that exits adaptive preview
+#: src/adw-adaptive-preview.ui:223
+msgid "Exit"
+msgstr "Sai"
+
+#. Translators: tooltip of the button that takes a screenshot
+#: src/adw-adaptive-preview.ui:234
+msgid "Take Screenshot"
+msgstr "Capturar a tela"
+
+#. Translators: one of the values in the shell preset dropdown, it controls
+#. the height of the top and bottom bar in the preview. This one refers to the
+#. upstream gnome-shell - it only has a top bar
+#: src/adw-adaptive-preview-presets-private.h:27
+msgctxt "Shell preset"
+msgid "Desktop Shell"
+msgstr "Shell de computador"
+
+#. Translators: one of the values in the shell preset dropdown, it controls
+#. the height of the top and bottom bar in the preview. This one refers to the
+#. mobile fork of gnome-shell - it has a top bar and a bottom bar
+#: src/adw-adaptive-preview-presets-private.h:31
+msgctxt "Shell preset"
+msgid "Mobile Shell"
+msgstr "Shell móvel"
+
+#. Translators: one of the values in the shell preset dropdown, it controls
+#. the height of the top and bottom bar in the preview. Fullscreen mode means
+#. no top/bottom bars
+#: src/adw-adaptive-preview-presets-private.h:36
+msgctxt "Shell preset"
+msgid "Fullscreen"
+msgstr "Tela cheia"
+
+#. Translators: one of the values in the shell preset dropdown, it controls
+#. the height of the top and bottom bar in the preview. Custom mode allows to
+#. set the panel heights manually
+#: src/adw-adaptive-preview-presets-private.h:40
+msgctxt "Shell preset"
+msgid "Custom"
+msgstr "Personalizado"
+
+#. Translators: one of the values in the device preset dropdown, it controls
+#. the screen size and bezels of the preview. This is a "generic" linux
+#. phone, with the same dimensions as Librem 5, PinePhone and PinePhone Pro
+#: src/adw-adaptive-preview-presets-private.h:105
+msgctxt "Device preset"
+msgid "Generic Phone"
+msgstr "Telefone genérico"
+
+#. Translators: one of the values in the device preset dropdown, it controls
+#. the screen size and bezels of the preview. This is a tablet, so it has a
+#. larger size and is horizontally oriented
+#: src/adw-adaptive-preview-presets-private.h:117
+msgctxt "Device preset"
+msgid "Generic Tablet"
+msgstr "Tablet genérico"
+
+#. Translators: one of the values in the device preset dropdown, it controls
+#. the screen size and bezels of the preview. This is a custom device, it
+#. allows to set the screen size manually and has no bezels
+#: src/adw-adaptive-preview-presets-private.h:147
+msgctxt "Device preset"
+msgid "Custom"
+msgstr "Personalizado"
+
+#. Translators: accessible label for an avatar. The variable is a name of
+#. the person the avatar refers to
+#: src/adw-avatar.c:161
+#, c-format
+msgid "Avatar of %s"
+msgstr "Avatar de %s"
+
+#. Translators: entry in the back button's context menu. Normally the entry
+#. titles here are page titles, but if a title is missing, "Back" is used
+#. instead.
+#. Translators: back button tooltip. Normally it's the title of the previous
+#. page (the one that will appear after clicking the button), but "Back" is
+#. used as a fallback if that page has no title.
+#. Translators: accessible label of back buttons. Unlike the tooltip and menu
+#. entries, this one is always used, regardless of page titles.
+#: src/adw-back-button.c:316 src/adw-back-button.c:417
+#: src/adw-back-button.c:525
+msgid "Back"
+msgstr "Voltar"
+
+#. Translators: placeholder text of the search entry from AdwComboRow.
+#. It should be phrased as a verb
+#. Translators: tooltip of the search button
+#: src/adw-combo-row.ui:52 src/adw-preferences-dialog.ui:89
+#: src/adw-preferences-window.ui:100
+msgid "Search"
+msgstr "Pesquisa"
+
+#. Translators: tooltip of the apply button in entry row
+#: src/adw-entry-row.ui:95
+msgid "Apply"
+msgstr "Aplicar"
+
+#. Translators: used by screen reader when reading out view switcher pages
+#. which have needs-attention=true (the blue dot or number badge)
+#: src/adw-indicator-bin.c:80
+msgctxt "view switcher button badge"
+msgid "Attention requested."
+msgstr "Atenção requerida."
+
+#. Translators: used by screen reader when reading out view switcher pages
+#. which have the unread badge (e.g. the number of updates/notifications).
+#. This string is used when the badge is showing "999+".
+#: src/adw-indicator-bin.c:87
+msgctxt "view switcher button badge"
+msgid "Has a badge: more than 999."
+msgstr "Tem uma insígnia: mais de 999."
+
+#. Translators: used by screen reader when reading out view switcher pages
+#. which have the unread badge (e.g. the number of updates/notifications).
+#. The variable is what's displayed on the badge.
+#: src/adw-indicator-bin.c:92
+#, c-format
+msgctxt "view switcher button badge"
+msgid "Has a badge: %u."
+msgstr "Tem uma insígnia: %u"
+
+#. Translators: one of the color scheme dropdown options in inspector.
+#. No preference here means that the system doesn't care if the app is
+#. light or dark.
+#: src/adw-inspector-page.c:135
+msgid "No Preference"
+msgstr "Sem preferência"
+
+#. Translators: one of the color scheme dropdown options in inspector.
+#. The system prefers apps to be dark.
+#: src/adw-inspector-page.c:139
+msgid "Prefer Dark"
+msgstr "Preferir tema escuro"
+
+#. Translators: one of the color scheme dropdown options in inspector.
+#. The system prefers apps to be light.
+#: src/adw-inspector-page.c:143
+msgid "Prefer Light"
+msgstr "Preferir tema claro"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:157
+msgid "Blue"
+msgstr "Azul"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:160
+msgid "Teal"
+msgstr "Verde-azulado"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:163
+msgid "Green"
+msgstr "Verde"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:166
+msgid "Yellow"
+msgstr "Amarelo"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:169
+msgid "Orange"
+msgstr "Laranja"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:172
+msgid "Red"
+msgstr "Vermelho"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:175
+msgid "Pink"
+msgstr "Rosa"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:178
+msgid "Purple"
+msgstr "Roxo"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:181
+msgid "Slate"
+msgstr "Ardósia"
+
+#. Translators: the name of the library, not the stylesheet
+#: src/adw-inspector-page.c:320
+msgid "Adwaita"
+msgstr "Adwaita"
+
+#. Translators: title of the accent system appearance group in inspector
+#: src/adw-inspector-page.ui:11
+msgid "System Appearance"
+msgstr "Aparência do sistema"
+
+#. Translators: description of the accent system appearance group
+#: src/adw-inspector-page.ui:13
+msgid ""
+"Override settings for this application. They will be reset upon closing the "
+"inspector."
+msgstr ""
+"Sobrescreva as configurações deste aplicativo. Elas serão redefinidas ao "
+"fechar o inspetor."
+
+#. Translators: title of the system-supports-color-scheme switch row.
+#. It's used to emulate systems that don't have their own light/dark
+#. setting, as opposed to those that do.
+#: src/adw-inspector-page.ui:19
+msgid "System Supports Color Schemes"
+msgstr "Sistema oferece suporte a esquemas de cores"
+
+#. Translators: title of the color scheme picker combo row
+#: src/adw-inspector-page.ui:26
+msgid "Preferred Color Scheme"
+msgstr "Esquema de cor preferido"
+
+#. Translators: title of the accent color group in inspector
+#: src/adw-inspector-page.ui:46
+msgid "Accent Color"
+msgstr "Cor de realce"
+
+#. Translators: title of the system-supports-accent-color switch row.
+#. It's used to emulate systems that don't have their own accent color
+#. setting, as opposed to those that do.
+#: src/adw-inspector-page.ui:52
+msgid "System Supports Accent Colors"
+msgstr "Sistema oferece suporte a cores de realce"
+
+#. Translators: title of the accent color picker picker row
+#: src/adw-inspector-page.ui:59
+msgid "Preferred Accent Color"
+msgstr "Cor de realce preferida"
+
+#. Translators: title of the accessibility group in inspector
+#: src/adw-inspector-page.ui:89
+msgid "Accessibility"
+msgstr "Acessibilidade"
+
+#. Translators: title of the high contrast switch row
+#: src/adw-inspector-page.ui:93
+msgid "High Contrast"
+msgstr "Alto contraste"
+
+#. Translators: description of the adaptive preview group
+#: src/adw-inspector-page.ui:106
+msgid ""
+"Test the app at specific screen sizes to simulate a mobile environment. Open "
+"the preview directly on any supported window using Shift+Ctrl+M"
+msgstr ""
+"Teste o aplicativo em tamanhos de tela específicos para simular um ambiente "
+"móvel. Abra a pré-visualização diretamente em qualquer janela suportada "
+"usando Shift+Ctrl+M"
+
+#. Translators: context menu item for link rows in about dialog
+#: src/adw-link-row.c:328
+msgid "_Open Link"
+msgstr "Abrir _link"
+
+#. Translators: context menu item for link rows in about dialog
+#: src/adw-link-row.c:330
+msgid "Copy _Link Address"
+msgstr "Copiar endereço do _link"
+
+#. Translators: tooltip of the hide password button in password entry rows
+#: src/adw-password-entry-row.c:71
+msgid "Hide Password"
+msgstr "Esconder a senha"
+
+#. Translators: tooltip of the show password button in password entry rows
+#: src/adw-password-entry-row.c:76
+msgid "Show Password"
+msgstr "Mostrar senha"
+
+#. Translators: tooltip of the caps lock indicator in password entry rows
+#: src/adw-password-entry-row.c:171
+msgid "Caps Lock is on"
+msgstr "Caps Lock ativado"
+
+#. Translators: context menu entry in password entry rows
+#: src/adw-password-entry-row.c:180
+msgid "_Show Password"
+msgstr "Mostrar _senha"
+
+#. Translators: shown in the search view in preferences dialog, in
+#. subtitles. When the dialog has more than 1 page, the search results
+#. display what page each row is from, e.g. Appearance → Fonts for a row
+#. from a Fonts group row on the Appearance page. If a page is missing a
+#. title, this string is used as a fallback, i.e. Untitled page → Fonts
+#: src/adw-preferences-dialog.c:222 src/adw-preferences-window.c:223
+msgid "Untitled page"
+msgstr "Página sem título"
+
+#. Translators: default title in the preferences dialog
+#: src/adw-preferences-dialog.ui:6 src/adw-preferences-window.ui:9
+msgid "Preferences"
+msgstr "Preferências"
+
+#. Translators: placeholder text in the search entry, search is a verb here
+#: src/adw-preferences-dialog.ui:72 src/adw-preferences-window.ui:83
+msgid "Search preferences"
+msgstr "Pesquisar nas preferências"
+
+#. Translators: title of the no search results page
+#: src/adw-preferences-dialog.ui:158 src/adw-preferences-window.ui:168
+#: src/adw-shortcuts-dialog.ui:83
+msgid "No Results Found"
+msgstr "Nenhum resultado encontrado"
+
+#. Translators: description of the no search results page
+#: src/adw-preferences-dialog.ui:160 src/adw-preferences-window.ui:170
+#: src/adw-shortcuts-dialog.ui:85 src/adw-tab-overview.ui:116
+msgid "Try a different search"
+msgstr "Tente uma pesquisa diferente"
+
+#. Translators: accessible description of the sheet close button
+#: src/adw-sheet-controls.c:131
+msgid "Close the window"
+msgstr "Fecha a janela"
+
+#. Translators: This string is used to mark left/right variants of modifier
+#. keys in the shortcut window (e.g. Control_L vs Control_R). Please keep
+#. this string very short, ideally just a single character, since it will
+#. be rendered as part of the key.
+#: src/adw-shortcut-label.c:132
+msgctxt "keyboard side marker"
+msgid "L"
+msgstr "E"
+
+#. Translators: This string is used to mark left/right variants of modifier
+#. keys in the shortcut window (e.g. Control_L vs Control_R). Please keep
+#. this string very short, ideally just a single character, since it will
+#. be rendered as part of the key.
+#: src/adw-shortcut-label.c:144
+msgctxt "keyboard side marker"
+msgid "R"
+msgstr "D"
+
+#. Translators: default title in shortcuts dialogs
+#: src/adw-shortcuts-dialog.ui:6
+msgid "Keyboard Shortcuts"
+msgstr "Atalhos de teclado"
+
+#. Translators: placeholder text for the search entry. Search is a verb here
+#. Translators: accessible label for the search entry
+#: src/adw-shortcuts-dialog.ui:22 src/adw-shortcuts-dialog.ui:25
+msgid "Search shortcuts"
+msgstr "Pesquisar atalhos"
+
+#. Translators: shown in shortcuts dialog, when an action is listed, but
+#. doesn't actually have a shortcut
+#: src/adw-shortcut-row.c:259
+msgid "No Shortcut"
+msgstr "Nenhum atalho"
+
+#. Translators: default tooltip of a split button's dropdown
+#: src/adw-split-button.c:532 src/adw-split-button.c:1050
+msgid "More Options"
+msgstr "Mais opções"
+
+#. Translators: tooltip of AdwTabButton
+#: src/adw-tab-button.ui:8
+msgid "View Open Tabs"
+msgstr "Exibir abas abertas"
+
+#. Translators: tab overview title. The variable is the number of open tabs
+#: src/adw-tab-overview.c:967
+#, c-format
+msgid "%u Tab"
+msgid_plural "%u Tabs"
+msgstr[0] "%u aba"
+msgstr[1] "%u abas"
+
+#. Translators: tooltip of the search button
+#: src/adw-tab-overview.ui:21
+msgid "Search Tabs"
+msgstr "Pesquisar abas"
+
+#. Translators: placeholder text of the search entry. Search is a verb here
+#: src/adw-tab-overview.ui:52
+msgid "Search tabs"
+msgstr "Pesquisar abas"
+
+#. Translators: title of the no open tabs page
+#: src/adw-tab-overview.ui:100
+msgid "No Open Tabs"
+msgstr "Nenhuma aba aberta"
+
+#. Translators: title of the no search results page
+#: src/adw-tab-overview.ui:114
+msgid "No Tabs Found"
+msgstr "Nenhuma aba encontrada"
+
+#. Translators: label of the new tab button
+#: src/adw-tab-overview.ui:137
+msgid "New _Tab"
+msgstr "Nova _aba"
+
+#. Translators: tooltip of the close button on tabs
+#: src/adw-tab-thumbnail.ui:40 src/adw-tab.ui:76
+msgid "Close Tab"
+msgstr "Fecha aba"
+
+#. Translators: an announcement screen reader reads out when a toast with a
+#. button appears. The first variable is the toast's title, the second one
+#. is the button label.
+#: src/adw-toast-overlay.c:289
+#, c-format
+msgid "A toast appeared: %s, has a button: %s"
+msgstr "Uma notificação apareceu: %s, tem um botão: %s"
+
+#. Translators: an announcement screen reader reads out when a toast without
+#. a button appears. The variable is the toast's title.
+#: src/adw-toast-overlay.c:294
+#, c-format
+msgid "A toast appeared: %s"
+msgstr "Uma notificação apareceu: %s"
+
+#. Translators: an announcement screen reader reads out when a toast with a
+#. button, but without a title appears. The variable is the button label.
+#: src/adw-toast-overlay.c:298
+#, c-format
+msgid "A toast appeared, has a button: %s"
+msgstr "Uma notificação apareceu: tem um botão: %s"
+
+#. Translators: an announcement screen reader reads out when a toast without
+#. a button or a title appears.
+#: src/adw-toast-overlay.c:303
+msgid "A toast appeared"
+msgstr "Uma notificação apareceu"
+
+#. Translators: tooltip of the dismiss (close) button on toasts
+#: src/adw-toast-widget.ui:67
+msgid "Dismiss"
+msgstr "Dispensar"
+
+#~ msgctxt "Shell preset"
+#~ msgid "Phosh"
+#~ msgstr "Phosh"
+
+#~ msgctxt "Device preset"
+#~ msgid "OnePlus 6"
+#~ msgstr "OnePlus 6"
+
+#~ msgctxt "Device preset"
+#~ msgid "OnePlus 6T"
+#~ msgstr "OnePlus 6T"
+
+#~ msgid "Try a different search."
+#~ msgstr "Tente uma pesquisa diferente."
+
+#~ msgid "_What’s New"
+#~ msgstr "O que há de _novo"
+
+#~ msgid "Search…"
+#~ msgstr "Pesquisar…"
+
+#~ msgid "_Save"
+#~ msgstr "_Salvar"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Cancelar"
+
+#~ msgid "Hide Text"
+#~ msgstr "Oculta texto"
+
+#~ msgid "Show Text"
+#~ msgstr "Mostra texto"
+
+#~ msgid "_Show Text"
+#~ msgstr "_Mostrar texto"
+
+#~ msgid "Icon name"
+#~ msgstr "Nome do ícone"
+
+#~ msgid "Activatable widget"
+#~ msgstr "Widget ativável"
+
+#~ msgid "The widget to be activated when the row is activated"
+#~ msgstr "O widget para ser ativado quando a linha está ativada"
+
+#~ msgid "Subtitle"
+#~ msgstr "Subtítulo"
+
+#~ msgid "Use underline"
+#~ msgstr "Usar sublinhado"
+
+#~ msgid ""
+#~ "If set, an underline in the text indicates the next character should be "
+#~ "used for the mnemonic accelerator key"
+#~ msgstr ""
+#~ "Se definir, um sublinhado no texto indica a próprio caractere deve ser "
+#~ "usado para uma tecla aceleradora mnemônica"
+
+#~ msgid "Number of title lines"
+#~ msgstr "Número de linhas de título"
+
+#~ msgid "The desired number of title lines"
+#~ msgstr "O número desejado de linhas no título"
+
+#~ msgid "Number of subtitle lines"
+#~ msgstr "Número de linhas de subtítulo"
+
+#~ msgid "The desired number of subtitle lines"
+#~ msgstr "O número desejado de linhas no subtítulo"
+
+#~ msgid "Child"
+#~ msgstr "Filho"
+
+#~ msgid "The child widget"
+#~ msgstr "O widget filho"
+
+#~ msgid "Number of pages"
+#~ msgstr "Número de páginas"
+
+#~ msgid "Position"
+#~ msgstr "Posição"
+
+#~ msgid "Current scrolling position"
+#~ msgstr "Posição de rolagem atual"
+
+#~ msgid "Spacing"
+#~ msgstr "Espaçamento"
+
+#~ msgid "Spacing between pages"
+#~ msgstr "Espaçamento entre páginas"
+
+#~ msgid "Reveal duration"
+#~ msgstr "Revelar duração"
+
+#~ msgid "Page reveal duration"
+#~ msgstr "Duração de revelação de página"
+
+#~ msgid "Interactive"
+#~ msgstr "Interativa"
+
+#~ msgid "Whether the widget can be swiped"
+#~ msgstr "Se é possível deslizar pelo widget"
+
+#~ msgid "Animation duration"
+#~ msgstr "Duração da animação"
+
+#~ msgid "Default animation duration"
+#~ msgstr "Duração padrão da animação"
+
+#~ msgid "Allow mouse drag"
+#~ msgstr "Permitir arrastar com mouse"
+
+#~ msgid "Whether to allow dragging with mouse pointer"
+#~ msgstr "Se deve-se permitir arrastar com ponteiro do mouse"
+
+#~ msgid "Allow long swipes"
+#~ msgstr "Permitir deslizamentos longos"
+
+#~ msgid "Whether to allow swiping for more than one page at a time"
+#~ msgstr "Se deve permitir deslizar por mais de uma página de cada vez"
+
+#~ msgid "Carousel"
+#~ msgstr "Carrossel"
+
+#~ msgid "Maximum size"
+#~ msgstr "Tamanho máximo"
+
+#~ msgid "The maximum size allocated to the child"
+#~ msgstr "O tamanho máximo alocado para o filho"
+
+#~ msgid "Tightening threshold"
+#~ msgstr "Limiar de aperto"
+
+#~ msgid "The size from which the clamp will tighten its grip on the child"
+#~ msgstr ""
+#~ "O tamanho a partir do qual a operação de clamping vai apertar o tamanho "
+#~ "do filho"
+
+#~ msgid "Model"
+#~ msgstr "Modelo"
+
+#~ msgid "Model for the displayed items"
+#~ msgstr "Modelo para os itens exibidos"
+
+#~ msgid "Selected"
+#~ msgstr "Selecionado"
+
+#~ msgid "Position of the selected item"
+#~ msgstr "Posição dos itens selecionados"
+
+#~ msgid "Selected Item"
+#~ msgstr "Item selecionado"
+
+#~ msgid "The selected item"
+#~ msgstr "O item selecionado"
+
+#~ msgid "Factory"
+#~ msgstr "Fábrica"
+
+#~ msgid "Factory for populating list items"
+#~ msgstr "Fábrica para popular lista de itens"
+
+#~ msgid "List Factory"
+#~ msgstr "Listar fábrica"
+
+#~ msgid "Expression"
+#~ msgstr "Expressão"
+
+#~ msgid "Expression to determine strings to search for"
+#~ msgstr "Expressão para determinar strings a serem procuradas"
+
+#~ msgid "Use subtitle"
+#~ msgstr "Usar subtítulo"
+
+#~ msgid "Set the current value as the subtitle"
+#~ msgstr "Define o valor atual como o subtítulo"
+
+#~ msgid "Enum type"
+#~ msgstr "Tipo enum"
+
+#~ msgid "The type of the enum to construct the model from"
+#~ msgstr "O tipo de enum para construir o modelo"
+
+#~ msgid "Value"
+#~ msgstr "Valor"
+
+#~ msgid "The enum object value"
+#~ msgstr "Valor do objeto do enum"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "The enum object name"
+#~ msgstr "Nome do objeto do enum"
+
+#~ msgid "Nick"
+#~ msgstr "Apelido"
+
+#~ msgid "The enum object nick"
+#~ msgstr "Apelido do objeto do enum"
+
+#~ msgid "The subtitle for this row"
+#~ msgstr "O subtítulo para esta linha"
+
+#~ msgid "Expanded"
+#~ msgstr "Expandido"
+
+#~ msgid "Whether the row is expanded"
+#~ msgstr "Se a linha é expandida"
+
+#~ msgid "Enable expansion"
+#~ msgstr "Habilitar expansão"
+
+#~ msgid "Whether the expansion is enabled"
+#~ msgstr "Se a expansão está habilitada"
+
+#~ msgid "Show enable switch"
+#~ msgstr "Mostrar alternador de habilitação"
+
+#~ msgid "Whether the switch enabling the expansion is visible"
+#~ msgstr "Se o alternador que habilita a expansão é visível"
+
+#~ msgid "Content"
+#~ msgstr "Conteúdo"
+
+#~ msgid "The content Widget"
+#~ msgstr "O widget de conteúdo"
+
+#~ msgid "Flap"
+#~ msgstr "Aba"
+
+#~ msgid "The flap widget"
+#~ msgstr "O widget da aba"
+
+#~ msgid "Separator"
+#~ msgstr "Separador"
+
+#~ msgid "The separator widget"
+#~ msgstr "O widget do separador"
+
+#~ msgid "Flap Position"
+#~ msgstr "Posição da aba"
+
+#~ msgid "Reveal Flap"
+#~ msgstr "Revelar aba"
+
+#~ msgid "Whether the flap is revealed"
+#~ msgstr "Se a aba é revelada"
+
+#~ msgid "Reveal Duration"
+#~ msgstr "Revelar duração"
+
+#~ msgid "The reveal transition animation duration, in milliseconds"
+#~ msgstr "A duração da animação da transição de revelação, em milissegundos"
+
+#~ msgid "Reveal Progress"
+#~ msgstr "Revelar progresso"
+
+#~ msgid "The current reveal transition progress"
+#~ msgstr "O progresso atual da transição de revelação"
+
+#~ msgid "Fold Policy"
+#~ msgstr "Política de dobra"
+
+#~ msgid "The current fold policy"
+#~ msgstr "A política atual de dobra"
+
+#~ msgid "Fold Duration"
+#~ msgstr "Duração da dobra"
+
+#~ msgid "The fold transition animation duration, in milliseconds"
+#~ msgstr "A duração da animação da transição de dobra, em milissegundos"
+
+#~ msgid "Folded"
+#~ msgstr "Dobrado"
+
+#~ msgid "Whether the flap is currently folded"
+#~ msgstr "Se a aba está atualmente dobrada"
+
+#~ msgid "Locked"
+#~ msgstr "Bloqueado"
+
+#~ msgid "Whether the flap is locked"
+#~ msgstr "Se a aba está bloqueada"
+
+#~ msgid "Transition Type"
+#~ msgstr "Tipo de transição"
+
+#~ msgid "The type of animation used for reveal and fold transitions"
+#~ msgstr "O tipo de animação usada para revelar e dobrar transições"
+
+#~ msgid "Modal"
+#~ msgstr "Modal"
+
+#~ msgid "Whether the flap is modal"
+#~ msgstr "Se a aba é modal"
+
+#~ msgid "Swipe to Open"
+#~ msgstr "Deslize para abrir"
+
+#~ msgid "Whether the flap can be opened with a swipe gesture"
+#~ msgstr "Se a aba pode ser aberta com um gesto de deslize"
+
+#~ msgid "Swipe to Close"
+#~ msgstr "Deslize para fechar"
+
+#~ msgid "Whether the flap can be closed with a swipe gesture"
+#~ msgstr "Se a aba pode ser fechada com um gesto de deslize"
+
+#~ msgid "Title Widget"
+#~ msgstr "Widget de título"
+
+#~ msgid "Title widget to display"
+#~ msgstr "Componente de título a ser exibido"
+
+#~ msgid "Show start title buttons"
+#~ msgstr "Mostrar botões iniciais de título"
+
+#~ msgid "Whether to show start title buttons"
+#~ msgstr "Se deve mostrar botões iniciais de títulos"
+
+#~ msgid "Show end title buttons"
+#~ msgstr "Mostrar botões finais de título"
+
+#~ msgid "Whether to show end title buttons"
+#~ msgstr "Se deve mostrar botões finais de títulos"
+
+#~ msgid "Decoration Layout"
+#~ msgstr "Disposição de decoração"
+
+#~ msgid "The layout for window decorations"
+#~ msgstr "A disposição de decorações da janela"
+
+#~ msgid "Centering policy"
+#~ msgstr "Política de centralização"
+
+#~ msgid "The policy to horizontally align the center widget"
+#~ msgstr "A política para alinhar horizontalmente o widget central"
+
+#~ msgid "The child of the page"
+#~ msgstr "O filho da página"
+
+#~ msgid "The name of the child page"
+#~ msgstr "O nome da página filha"
+
+#~ msgid "Navigatable"
+#~ msgstr "Navegável"
+
+#~ msgid "Whether the child can be navigated to"
+#~ msgstr "Se o filho pode ser navegado"
+
+#~ msgid "Whether the widget is folded"
+#~ msgstr "Se o widget está dobrado"
+
+#~ msgid "Horizontally homogeneous folded"
+#~ msgstr "Dobrado horizontalmente homogêneo"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is folded"
+#~ msgstr ""
+#~ "Dimensionamento horizontalmente homogêneo quando o folheto está dobrado"
+
+#~ msgid "Vertically homogeneous folded"
+#~ msgstr "Dobrado verticalmente homogêneo"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is folded"
+#~ msgstr ""
+#~ "Dimensionamento verticalmente homogêneo quando o folheto está dobrado"
+
+#~ msgid "Box horizontally homogeneous"
+#~ msgstr "Caixa horizontalmente homogênea"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is unfolded"
+#~ msgstr ""
+#~ "Dimensionamento horizontalmente homogêneo quando o folheto está desdobrado"
+
+#~ msgid "Box vertically homogeneous"
+#~ msgstr "Caixa verticalmente homogênea"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is unfolded"
+#~ msgstr ""
+#~ "Dimensionamento verticalmente homogêneo quando o folheto está desdobrado"
+
+#~ msgid "Visible child"
+#~ msgstr "Filho visível"
+
+#~ msgid "The widget currently visible when the leaflet is folded"
+#~ msgstr "O widget atualmente visível quando o folheto está dobrado"
+
+#~ msgid "Name of visible child"
+#~ msgstr "Nome do filho visível"
+
+#~ msgid ""
+#~ "The name of the widget currently visible when the children are stacked"
+#~ msgstr ""
+#~ "O nome do widget atualmente visível quando os filhos estão empilhados"
+
+#~ msgid "Transition type"
+#~ msgstr "Tipo de transição"
+
+#~ msgid "The type of animation used to transition between modes and children"
+#~ msgstr "O tipo da animação usada para transicionar entre modos e filhos"
+
+#~ msgid "Mode transition duration"
+#~ msgstr "Duração da transição de modo"
+
+#~ msgid "The mode transition animation duration, in milliseconds"
+#~ msgstr "A duração da animação da transição de modo, em milissegundos"
+
+#~ msgid "Child transition duration"
+#~ msgstr "Duração da transição de filho"
+
+#~ msgid "The child transition animation duration, in milliseconds"
+#~ msgstr "A duração da animação de transição de filho, em milissegundos"
+
+#~ msgid "Child transition running"
+#~ msgstr "Execução da transição de filho"
+
+#~ msgid "Whether or not the child transition is currently running"
+#~ msgstr "Se a transição de filho está ou não atualmente em execução"
+
+#~ msgid "Interpolate size"
+#~ msgstr "Tamanho da interpolação"
+
+#~ msgid ""
+#~ "Whether or not the size should smoothly change when changing between "
+#~ "differently sized children"
+#~ msgstr ""
+#~ "Se o tamanho deve ou não ser suavemente alterado ao alterar entre filhos "
+#~ "de tamanhos diferentes"
+
+#~ msgid "Can swipe back"
+#~ msgstr "Pode deslizar para trás"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch to the previous child"
+#~ msgstr ""
+#~ "Se o gesto de deslize pode ou não ser usado para alternar para o filho "
+#~ "anterior"
+
+#~ msgid "Can swipe forward"
+#~ msgstr "Pode deslizar para frente"
+
+#~ msgid "Whether or not swipe gesture can be used to switch to the next child"
+#~ msgstr ""
+#~ "Se o gesto de deslize pode ou não ser usado para alternar para o próximo "
+#~ "filho"
+
+#~ msgid "Can unfold"
+#~ msgstr "Pode desdobrar"
+
+#~ msgid "Whether or not the leaflet can unfold"
+#~ msgstr "Se o folheto pode desdobrar ou não"
+
+#~ msgid "Pages"
+#~ msgstr "Páginas"
+
+#~ msgid "A selection model with the leaflet's pages"
+#~ msgstr "Um modelo de seleção com as páginas do folheto"
+
+#~ msgid "Description"
+#~ msgstr "Descrição"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid ""
+#~ "Whether an embedded underline in the text of the title label indicates a "
+#~ "mnemonic"
+#~ msgstr ""
+#~ "Se um sublinhado incorporado no texto do rótulo do título indica um "
+#~ "mnemônico"
+
+#~ msgid "The title of the preference"
+#~ msgstr "O título da preferência"
+
+#~ msgid "Whether search is enabled"
+#~ msgstr "Se a pesquisa está habilitada"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch from a subpage to the "
+#~ "preferences"
+#~ msgstr ""
+#~ "Se o gesto de deslize pode ou não ser usado para alternar de uma "
+#~ "subpágina para as preferências"
+
+#~ msgid "Widget"
+#~ msgstr "Widget"
+
+#~ msgid "The widget the shadow will be drawn for"
+#~ msgstr "O widget para a qual a sombra será desenhada"
+
+#~ msgid "Enabled"
+#~ msgstr "Habilitado"
+
+#~ msgid ""
+#~ "Whether the child can be picked or should be ignored when looking for the "
+#~ "child fitting the available size best"
+#~ msgstr ""
+#~ "Se o filho pode ser escolhido ou deve ser ignorado ao procurar pelo filho "
+#~ "que caiba no melhor tamanho disponível"
+
+#~ msgid "Homogeneous"
+#~ msgstr "Homogêneo"
+
+#~ msgid "Homogeneous sizing"
+#~ msgstr "Dimensionamento homogêneo"
+
+#~ msgid "The widget currently visible in the squeezer"
+#~ msgstr "O widget atualmente visível na prensa"
+
+#~ msgid "Transition duration"
+#~ msgstr "Duração de transição"
+
+#~ msgid "The animation duration, in milliseconds"
+#~ msgstr "A duração da animação, em milissegundos"
+
+#~ msgid "The type of animation used to transition"
+#~ msgstr "O tipo de animação usada para a transição"
+
+#~ msgid "Transition running"
+#~ msgstr "Execução de transição"
+
+#~ msgid "Whether or not the transition is currently running"
+#~ msgstr "Se a transição está atualmente em execução"
+
+#~ msgid "X align"
+#~ msgstr "Alinh. X"
+
+#~ msgid "The horizontal alignment, from 0 (start) to 1 (end)"
+#~ msgstr "O alinhamento horizontal, de 0 (início) até 1 (fim)"
+
+#~ msgid "Y align"
+#~ msgstr "Alinh. Y"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "O alinhamento vertical, de 0 (topo) até 1 (base)"
+
+#~ msgid "A selection model with the squeezer's pages"
+#~ msgstr "Um modelo de seleção com as páginas da prensa"
+
+#~ msgid "The name of the icon to be used"
+#~ msgstr "O nome do ícone a ser usado"
+
+#~ msgid "The title to be displayed below the icon"
+#~ msgstr "O título para ser exibido abaixo do ícone"
+
+#~ msgid "The description to be displayed below the title"
+#~ msgstr "A descrição a ser exibida abaixo do título"
+
+#~ msgid "Swipeable"
+#~ msgstr "Deslizável"
+
+#~ msgid "The swipeable the swipe tracker is attached to"
+#~ msgstr "O deslizável ao qual o rastreador de deslize está anexado"
+
+#~ msgid "Whether the swipe tracker processes events"
+#~ msgstr "Se o rastreador de deslize processa eventos"
+
+#~ msgid "Reversed"
+#~ msgstr "Invertida"
+
+#~ msgid "Whether swipe direction is reversed"
+#~ msgstr "Se a direção de deslize é revertida"
+
+#~ msgid "Whether to allow swiping for more than one snap point at a time"
+#~ msgstr ""
+#~ "Se deve permitir deslizar por mais de um ponto de alinhamento de cada vez"
+
+#~ msgctxt "AdwValueObjectClass"
+#~ msgid "Value"
+#~ msgstr "Valor"
+
+#~ msgctxt "AdwValueObjectClass"
+#~ msgid "The contained value"
+#~ msgstr "O valor contido"
+
+#~ msgid "Policy"
+#~ msgstr "Política"
+
+#~ msgid "The policy to determine the mode to use"
+#~ msgstr "A política para determinar o modo para usar"
+
+#~ msgid "Stack"
+#~ msgstr "Pilha"
+
+#~ msgid "Reveal"
+#~ msgstr "Revelar"
+
+#~ msgid "Whether the view switcher is revealed"
+#~ msgstr "Se o alternador de visão é revelado"
+
+#~ msgid "Icon Name"
+#~ msgstr "Nome do ícone"
+
+#~ msgid "Icon name for image"
+#~ msgstr "Nome do ícone para a imagem"
+
+#~ msgid "Needs attention"
+#~ msgstr "Precisa de atenção"
+
+#~ msgid "Hint the view needs attention"
+#~ msgstr "Sugere que a visão precisa de atenção"
+
+#~ msgid "Narrow ellipsize"
+#~ msgstr "Reticência estreita"
+
+#~ msgid ""
+#~ "The preferred place to ellipsize the string, if the narrow mode label "
+#~ "does not have enough room to display the entire string"
+#~ msgstr ""
+#~ "O lugar preferido para colocar reticências na string, se o rótulo do modo "
+#~ "estreito não tiver espaço suficiente para exibir a string inteira"
+
+#~ msgid "The title to display"
+#~ msgstr "O título para a ser exibido"
+
+#~ msgid "The subtitle to display"
+#~ msgstr "Subtítulo a ser exibido"
+
+#~ msgid "View switcher enabled"
+#~ msgstr "Alternador de visão habilitado"
+
+#~ msgid "Whether the view switcher is enabled"
+#~ msgstr "Se o alternador de visão está habilitado"
+
+#~ msgid "Title visible"
+#~ msgstr "Título visível"
+
+#~ msgid "Whether the title label is visible"
+#~ msgstr "Se o rótulo do título está visível"

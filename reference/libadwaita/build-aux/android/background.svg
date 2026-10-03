@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient
+       id="gradient"
+       x1="78.052086"
+       y1="86.518761"
+       x2="92.074997"
+       y2="86.254173"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-185.98349,-5.7118018)" >
+      <stop
+         style="stop-color:#8ff0a4;stop-opacity:1"
+         offset="0"
+         id="stop15140" />
+      <stop
+         style="stop-color:#3584e4;stop-opacity:1"
+         offset="1"
+         id="stop15142" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(-74.192375,-93.908467)">
+    <rect
+       style="fill:url(#gradient);fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dashoffset:26.4"
+       width="12.7"
+       height="12.7"
+       x="-106.60847"
+       y="74.192375"
+       transform="rotate(-90)" />
+  </g>
+</svg>

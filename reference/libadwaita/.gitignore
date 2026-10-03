@@ -1,0 +1,14 @@
+_build
+*.swp
+*~
+\#*#
+.\#*
+build
+.buildconfig
+.flatpak-builder
+subprojects/gi-docgen
+subprojects/gtk
+subprojects/libsass
+subprojects/ministream
+subprojects/sassc
+tools/icon-development-kit

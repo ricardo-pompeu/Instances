@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="128"
+  height="128"
+  viewBox="0 0 128 128"
+  version="1.1">
+  <title>Instances</title>
+  <desc>GNOME application icon for a local Ollama chat client: a warm spark rising from a compact conversation hearth.</desc>
+
+  <defs>
+    <!-- Gradients are used only on the rounded flame surfaces. -->
+    <linearGradient id="outer-flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffbe6f"/>
+      <stop offset="0.48" stop-color="#ff7800"/>
+      <stop offset="1" stop-color="#e66100"/>
+    </linearGradient>
+    <linearGradient id="inner-flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9f06b"/>
+      <stop offset="1" stop-color="#f5c211"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f8e45c"/>
+    </linearGradient>
+
+    <!-- Keeps the internal flame shadow within the main vessel silhouette. -->
+    <clipPath id="vessel-clip">
+      <path d="M 40,56 H 88 C 102,56 112,66 112,80 V 82 C 112,94 104,102 94,104 L 100,112 L 82,104 H 40 C 26,104 16,94 16,80 C 16,66 26,56 40,56 Z"/>
+    </clipPath>
+  </defs>
+
+  <!--
+    Construction follows the GNOME 128 px app-icon canvas and 2 px grid.
+    Artwork bounds: x=16..112, y=12..116. Baseline: y=116.
+  -->
+
+  <!-- Lower profile: 4 px visual depth, darker than the top surface. -->
+  <path
+    d="M 40,56 H 88 C 102,56 112,66 112,80 V 82 C 112,94 104,102 94,104 L 100,112 L 82,104 H 40 C 26,104 16,94 16,80 C 16,66 26,56 40,56 Z"
+    fill="#613583"
+    transform="translate(0,4)"/>
+
+  <!-- Main conversation vessel. -->
+  <path
+    d="M 40,56 H 88 C 102,56 112,66 112,80 V 82 C 112,94 104,102 94,104 L 100,112 L 82,104 H 40 C 26,104 16,94 16,80 C 16,66 26,56 40,56 Z"
+    fill="#9141ac"/>
+
+  <!-- Upper edge catches the overhead light; it is part of the surface, not an outline. -->
+  <path
+    d="M 40,56 H 88 C 98,56 106,62 110,70 C 104,64 98,62 88,62 H 40 C 30,62 22,66 18,74 C 20,64 28,56 40,56 Z"
+    fill="#c061cb"/>
+
+  <!-- Recess beneath the spark: a flat, internal shadow, never outside the silhouette. -->
+  <ellipse cx="64" cy="64" rx="24" ry="8" fill="#613583" opacity="0.72" clip-path="url(#vessel-clip)"/>
+  <ellipse cx="64" cy="62" rx="18" ry="5" fill="#3d3846"/>
+
+  <!-- Outer spark. Its rounded surface justifies the restrained vertical gradient. -->
+  <path
+    d="M 66,12
+       C 68,28 86,34 88,50
+       C 90,62 84,72 76,78
+       C 82,64 76,56 68,48
+       C 66,60 52,62 50,74
+       C 48,84 56,92 66,92
+       C 84,92 98,80 98,62
+       C 98,42 84,26 66,12 Z"
+    fill="url(#outer-flame)"/>
+
+  <!-- Inner flame reads as a reply nested inside the larger conversation. -->
+  <path
+    d="M 68,42
+       C 70,52 84,58 84,70
+       C 84,80 76,86 68,86
+       C 58,86 52,80 52,72
+       C 52,62 62,58 64,50
+       C 66,56 68,60 72,62
+       C 72,54 70,48 68,42 Z"
+    fill="url(#inner-flame)"/>
+
+  <!-- Small white-hot core: the actual 'instances'. -->
+  <path
+    d="M 66,60 C 66,68 60,70 60,76 C 60,82 64,86 70,86 C 76,86 80,82 80,76 C 80,70 74,66 72,62 C 72,68 70,70 68,72 C 68,68 68,64 66,60 Z"
+    fill="url(#ember)"/>
+
+  <!-- Three large, low-detail apertures evoke live conversation at 32 px and above. -->
+  <circle cx="48" cy="94" r="3" fill="#f6f5f4"/>
+  <circle cx="64" cy="94" r="3" fill="#f6f5f4"/>
+  <circle cx="80" cy="94" r="3" fill="#f6f5f4"/>
+
+</svg>

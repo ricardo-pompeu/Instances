@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="instances">
+  <requires lib="gtk" version="4.22"/>
+  <requires lib="libadwaita" version="1.9"/>
+  <template class="InstancesWindow" parent="AdwApplicationWindow">
+    <property name="title" translatable="yes">Instances</property>
+    <property name="default-width">1040</property>
+    <property name="default-height">720</property>
+    <property name="width-request">360</property>
+    <property name="height-request">360</property>
+    <child>
+      <object class="AdwBreakpoint">
+        <condition>max-width: 700sp</condition>
+        <setter object="divisao" property="collapsed">True</setter>
+        <setter object="divisao" property="show-sidebar">False</setter>
+      </object>
+    </child>
+    <property name="content">
+      <object class="AdwToastOverlay" id="toast_overlay">
+        <property name="child">
+          <object class="AdwOverlaySplitView" id="divisao">
+            <property name="min-sidebar-width">220</property>
+            <property name="max-sidebar-width">300</property>
+            <property name="sidebar-width-fraction">0.27</property>
+            <property name="content">
+              <object class="AdwToolbarView">
+                <child type="top">
+                  <object class="AdwHeaderBar">
+                    <property name="title-widget">
+                      <object class="AdwWindowTitle" id="titulo_conversa">
+                        <property name="title" translatable="yes">Nova conversa</property>
+                        <property name="subtitle" translatable="yes">Instances</property>
+                      </object>
+                    </property>
+                    <child type="start">
+                      <object class="GtkToggleButton" id="botao_mostrar_sidebar">
+                        <property name="icon-name">sidebar-show-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Mostrar ou ocultar conversas (F9)</property>
+                        <property name="action-name">win.alternar-sidebar</property>
+                      </object>
+                    </child>
+                    <child type="end">
+                      <object class="GtkMenuButton" id="menu_button">
+                        <property name="icon-name">open-menu-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Menu principal</property>
+                        <property name="primary">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child type="top">
+                  <object class="AdwBanner" id="banner_conexao">
+                    <property name="title" translatable="yes">Verificando o Ollama…</property>
+                    <property name="button-label" translatable="yes">Reconectar</property>
+                    <property name="action-name">win.reconectar</property>
+                    <property name="use-markup">False</property>
+                    <property name="revealed">False</property>
+                  </object>
+                </child>
+                <child type="top">
+                  <object class="AdwClamp">
+                    <property name="maximum-size">760</property>
+                    <property name="tightening-threshold">560</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">6</property>
+                    <property name="child">
+                      <object class="AdwPreferencesGroup">
+                        <child>
+                          <object class="AdwComboRow" id="combo">
+                            <property name="title" translatable="yes">Modelo</property>
+                            <property name="subtitle" translatable="yes">Verificando o Ollama…</property>
+                            <property name="enable-search">True</property>
+                            <property name="use-markup">False</property>
+                            <property name="sensitive">False</property>
+                            <child type="prefix">
+                              <object class="GtkSpinner" id="spinner_servico"/>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+                <child type="top">
+                  <object class="AdwClamp">
+                    <property name="maximum-size">760</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="child">
+                      <object class="GtkBox" id="download_box">
+                        <property name="orientation">vertical</property>
+                        <property name="spacing">6</property>
+                        <property name="margin-top">6</property>
+                        <property name="margin-bottom">12</property>
+                        <property name="visible">False</property>
+                        <child>
+                          <object class="GtkLabel" id="download_status">
+                            <property name="xalign">0</property>
+                            <property name="wrap">True</property>
+                            <style><class name="caption"/><class name="dimmed"/></style>
+                          </object>
+                        </child>
+                        <child><object class="GtkProgressBar" id="download_progress"/></child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+                <property name="content">
+                  <object class="GtkStack" id="pilha_conversa">
+                    <property name="vexpand">True</property>
+                    <property name="transition-type">crossfade</property>
+                    <child>
+                      <object class="GtkStackPage">
+                        <property name="name">vazio</property>
+                        <property name="child">
+                          <object class="AdwStatusPage" id="pagina_vazia">
+                            <style><class name="compact"/></style>
+                            <property name="title" translatable="yes">Comece uma conversa</property>
+                            <property name="description" translatable="yes">Escolha um modelo e envie uma mensagem para começar.</property>
+                            <property name="child">
+                              <object class="AdwClamp">
+                                <property name="maximum-size">360</property>
+                                <property name="child">
+                                  <object class="GtkBox" id="sugestoes">
+                                    <property name="orientation">vertical</property>
+                                    <property name="spacing">8</property>
+                                    <style><class name="welcome-suggestions"/></style>
+                                  </object>
+                                </property>
+                              </object>
+                            </property>
+                          </object>
+                        </property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkStackPage">
+                        <property name="name">mensagens</property>
+                        <property name="child">
+                          <object class="GtkScrolledWindow" id="scroll_conversa">
+                            <property name="hscrollbar-policy">never</property>
+                            <property name="vscrollbar-policy">automatic</property>
+                            <property name="child">
+                              <object class="AdwClamp">
+                                <property name="maximum-size">760</property>
+                                <property name="tightening-threshold">560</property>
+                                <property name="child">
+                                  <object class="GtkBox" id="caixa_mensagens">
+                                    <property name="orientation">vertical</property>
+                                    <property name="spacing">20</property>
+                                    <property name="margin-top">18</property>
+                                    <property name="margin-bottom">18</property>
+                                    <property name="margin-start">18</property>
+                                    <property name="margin-end">18</property>
+                                  </object>
+                                </property>
+                              </object>
+                            </property>
+                          </object>
+                        </property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <child type="bottom">
+                  <object class="AdwClamp">
+                    <property name="maximum-size">760</property>
+                    <property name="tightening-threshold">560</property>
+                    <property name="margin-top">8</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="child">
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <property name="spacing">8</property>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">vertical</property>
+                            <style><class name="card"/><class name="composer"/></style>
+                            <child>
+                              <object class="GtkScrolledWindow">
+                                <property name="hscrollbar-policy">never</property>
+                                <property name="vscrollbar-policy">automatic</property>
+                                <property name="min-content-height">56</property>
+                                <property name="max-content-height">120</property>
+                                <property name="propagate-natural-height">True</property>
+                                <property name="child">
+                                  <object class="GtkTextView" id="prompt">
+                                    <property name="wrap-mode">word-char</property>
+                                    <property name="left-margin">12</property>
+                                    <property name="right-margin">12</property>
+                                    <property name="top-margin">12</property>
+                                    <property name="bottom-margin">12</property>
+                                    <property name="accepts-tab">False</property>
+                                    <accessibility>
+                                      <property name="label" translatable="yes">Mensagem</property>
+                                      <property name="description" translatable="yes">Digite sua mensagem. Use Ctrl+Enter para enviar.</property>
+                                    </accessibility>
+                                  </object>
+                                </property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="spacing">8</property>
+                                <property name="margin-start">12</property>
+                                <property name="margin-end">8</property>
+                                <property name="margin-bottom">8</property>
+                                <child>
+                                  <object class="GtkSpinner" id="spinner_geracao"/>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel" id="estado_geracao">
+                                    <property name="label" translatable="yes">Ctrl+Enter para enviar</property>
+                                    <property name="xalign">0</property>
+                                    <property name="hexpand">True</property>
+                                    <property name="ellipsize">end</property>
+                                    <style><class name="dimmed"/><class name="caption"/></style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkButton" id="botao_parar">
+                                    <property name="icon-name">media-playback-stop-symbolic</property>
+                                    <property name="tooltip-text" translatable="yes">Interromper resposta (Ctrl+.)</property>
+                                    <property name="action-name">win.parar</property>
+                                    <property name="visible">False</property>
+                                    <style><class name="circular"/></style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkButton" id="botao_enviar">
+                                    <property name="icon-name">go-up-symbolic</property>
+                                    <property name="tooltip-text" translatable="yes">Enviar mensagem (Ctrl+Enter)</property>
+                                    <property name="action-name">win.enviar</property>
+                                    <style><class name="suggested-action"/><class name="circular"/></style>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="label" translatable="yes">As conversas ficam disponíveis enquanto o aplicativo estiver aberto.</property>
+                            <property name="wrap">True</property>
+                            <property name="justify">center</property>
+                            <style><class name="caption"/><class name="dimmed"/></style>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+              </object>
+            </property>
+          </object>
+        </property>
+      </object>
+    </property>
+  </template>
+</interface>

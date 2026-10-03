@@ -1,0 +1,1522 @@
+# Finnish translation for libhandy.
+# Copyright (C) 2020 libhandy's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libhandy package.
+# JRfi <starman@starman.fi>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libhandy master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"POT-Creation-Date: 2026-08-01 06:46+0000\n"
+"PO-Revision-Date: 2026-08-17 19:49+0300\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
+"Language-Team: Finnish <lokalisointi-lista@googlegroups.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:219 src/adw-about-window.c:210
+msgid "GNU General Public License, version 2 or later"
+msgstr "GNU General Public -lisenssi (GPL), versio 2 tai myöhempi"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:221 src/adw-about-window.c:212
+msgid "GNU General Public License, version 3 or later"
+msgstr "GNU General Public -lisenssi (GPL), versio 3 tai myöhempi"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:223 src/adw-about-window.c:214
+msgid "GNU Lesser General Public License, version 2.1 or later"
+msgstr "GNU Lesser General Public -lisenssi (LGPL), versio 2.1 tai myöhempi"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:225 src/adw-about-window.c:216
+msgid "GNU Lesser General Public License, version 3 or later"
+msgstr "GNU Lesser General Public -lisenssi (LGPL), versio 3 tai myöhempi"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:227 src/adw-about-window.c:218
+msgid "BSD 2-Clause License"
+msgstr "2-lausekkeinen BSD-lisenssi"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:229 src/adw-about-window.c:220
+msgid "The MIT License (MIT)"
+msgstr "MIT-lisenssi (MIT)"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:231 src/adw-about-window.c:222
+msgid "Artistic License 2.0"
+msgstr "Artistic-lisenssi 2.0"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:233 src/adw-about-window.c:224
+msgid "GNU General Public License, version 2 only"
+msgstr "GNU General Public -lisenssi (GPL), vain versio 2"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:235 src/adw-about-window.c:226
+msgid "GNU General Public License, version 3 only"
+msgstr "GNU General Public -lisenssi (GPL), vain versio 3"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:237 src/adw-about-window.c:228
+msgid "GNU Lesser General Public License, version 2.1 only"
+msgstr "GNU Lesser General Public -lisenssi (LGPL), vain versio 2.1"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:239 src/adw-about-window.c:230
+msgid "GNU Lesser General Public License, version 3 only"
+msgstr "GNU Lesser General Public -lisenssi (LGPL), vain versio 3"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:241 src/adw-about-window.c:232
+msgid "GNU Affero General Public License, version 3 or later"
+msgstr "GNU Affero General Public -lisenssi (AGPL), versio 3 tai myöhempi"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:243 src/adw-about-window.c:234
+msgid "GNU Affero General Public License, version 3 only"
+msgstr "GNU Affero General Public -lisenssi (AGPL), vain versio 3"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:245 src/adw-about-window.c:236
+msgid "BSD 3-Clause License"
+msgstr "3-lausekkeinen BSD-lisenssi"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:247 src/adw-about-window.c:238
+msgid "Apache License, Version 2.0"
+msgstr "Apache-lisenssi, versio 2.0"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:249 src/adw-about-window.c:240
+msgid "Mozilla Public License 2.0"
+msgstr "Mozilla Public -lisenssi 2.0"
+
+#. Translators: license name, shown in the legal section in about dialog
+#: src/adw-about-dialog.c:251 src/adw-about-window.c:242
+msgid "BSD Zero-Clause License"
+msgstr "0-lausekkeinen BSD-lisenssi"
+
+#. Translators: developers section title in credits
+#: src/adw-about-dialog.c:611 src/adw-about-window.c:601
+msgid "Code by"
+msgstr "Koodaus"
+
+#. Translators: designers section title in credits
+#: src/adw-about-dialog.c:613 src/adw-about-window.c:603
+msgid "Design by"
+msgstr "Suunnittelu"
+
+#. Translators: artists section title in credits
+#: src/adw-about-dialog.c:615 src/adw-about-window.c:605
+msgid "Artwork by"
+msgstr "Taiteellinen työ"
+
+#. Translators: documenters section title in credits
+#: src/adw-about-dialog.c:617 src/adw-about-window.c:607
+msgid "Documentation by"
+msgstr "Dokumentaatio"
+
+#. Translators: translators section title in credits
+#: src/adw-about-dialog.c:619 src/adw-about-window.c:609
+msgid "Translated by"
+msgstr "Käännös"
+
+#. Translators: this is the license preamble. The 2 variables are the link to
+#. the license and its name. Names are translatable separately, links are
+#. hardcoded.
+#: src/adw-about-dialog.c:648 src/adw-about-window.c:638
+#, c-format
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"Tämä sovellus ei sisällä minkäänlaista takuuta. Lisätietoja <a "
+"href=\"%s\">%s</a>."
+
+#. Translators: Shown in the legal page when there are multiple sections, in
+#. that case this is the title of the first section, while subsequent titles
+#. are app-provided. For example:
+#. This Application: Copyright, license.
+#. Dependency 1: Copyright, license.
+#. Dependency 2: Copyright, license.
+#: src/adw-about-dialog.c:732 src/adw-about-window.c:722
+msgid "This Application"
+msgstr "Tämä sovellus"
+
+#. Translators: title on the "What's new" page. The variable is the
+#. specified version: e.g. "Version 1.2.3"
+#: src/adw-about-dialog.c:1037 src/adw-about-window.c:1027
+#, c-format
+msgid "Version %s"
+msgstr "Versio %s"
+
+#. Translators: error message printed when release notes are invalid.
+#. The first variable is error message, then the two numbers are line number
+#. and the character number within the line.
+#: src/adw-about-dialog.c:1061 src/adw-about-window.c:1051
+#, c-format
+msgid "Unable to parse release notes: %s at line %d, char %d"
+msgstr "Julkaisutietoja ei voitu jäsentää: %s rivillä %d, merkki %d"
+
+#. Translators: this is an error message, displayed when the release notes
+#. are invalid. It will appear in the UI, instead of release notes.
+#. The error message will be on the next line, followed by the
+#. "Line: %d, character: %d" string.
+#: src/adw-about-dialog.c:1071 src/adw-about-window.c:1061
+msgid "Unable to parse release notes:"
+msgstr "Julkaisutietoja ei voitu jäsentää:"
+
+#. Translators: shown after the error when release notes couldn't be parsed.
+#. The first variable is the line number, the second one is the position
+#. within the line.
+#: src/adw-about-dialog.c:1080 src/adw-about-window.c:1070
+#, c-format
+msgid "Line: %d, character: %d"
+msgstr "Rivi: %d, merkki: %d"
+
+#. Translators: app developers can showcase their other apps in the about
+#. dialog. This is the title of that section. The variable is the developer
+#. name.
+#: src/adw-about-dialog.c:1269
+#, c-format
+msgid "Other Apps by %s"
+msgstr "Muut kehittäjän %s sovellukset"
+
+#. Translators: app developers can showcase their other apps in the about
+#. dialog. This is the title of that section when the developer name has not
+#. been specified.
+#: src/adw-about-dialog.c:1277
+msgid "Other Apps"
+msgstr "Muut sovellukset"
+
+#. Translators: shown in a toast in response
+#. to copying version or debug information
+#: src/adw-about-dialog.c:1518 src/adw-about-window.c:1334
+msgid "Copied to clipboard"
+msgstr "Kopioitu leikepöydälle"
+
+#. Translators: error message, shown when saving debug info fails
+#: src/adw-about-dialog.c:1546 src/adw-about-window.c:1362
+msgid "Unable to save debugging information"
+msgstr "Vianjäljitystietoja ei voitu tallentaa"
+
+#. Translators: label of the close button in an error dialog
+#. Translators: accessible label of the sheet close button
+#: src/adw-about-dialog.c:1552 src/adw-about-window.c:1370
+#: src/adw-sheet-controls.c:128
+msgid "Close"
+msgstr "Sulje"
+
+#. Translators: title of the file chooser that appears when saving debug info
+#: src/adw-about-dialog.c:1570 src/adw-about-window.c:1387
+msgid "Save debugging information"
+msgstr "Tallenna vianjäljitystiedot"
+
+#. Translators: about dialog title
+#: src/adw-about-dialog.ui:6 src/adw-about-window.ui:6
+msgid "About"
+msgstr "Tietoja"
+
+#. Translators: title of the row that opens the release notes page
+#: src/adw-about-dialog.ui:102 src/adw-about-window.ui:105
+msgid "What’s _New"
+msgstr "_Mitä uutta"
+
+#. Translators: title of the row that opens the details page (comment, website etc)
+#: src/adw-about-dialog.ui:119 src/adw-about-window.ui:122
+msgid "_Details"
+msgstr "_Tiedot"
+
+#. Translators: title of the row that opens the app's website
+#: src/adw-about-dialog.ui:136 src/adw-about-dialog.ui:350
+#: src/adw-about-window.ui:139 src/adw-about-window.ui:348
+msgid "_Website"
+msgstr "_Verkkosivusto"
+
+#. Translators: title of the row that opens the app's support forum
+#: src/adw-about-dialog.ui:152 src/adw-about-window.ui:155
+msgid "_Support Questions"
+msgstr "T_ukikysymykset"
+
+#. Translators: title of the row that opens the app's issue tracker
+#: src/adw-about-dialog.ui:162 src/adw-about-window.ui:165
+msgid "_Report an Issue"
+msgstr "_Ilmoita ongelmasta"
+
+#. Translators: title of the row that opens the troubleshooting page
+#: src/adw-about-dialog.ui:172 src/adw-about-window.ui:175
+msgid "_Troubleshooting"
+msgstr "_Ongelmanratkaisu"
+
+#. Translators: title of the row that opens the credits page
+#: src/adw-about-dialog.ui:193 src/adw-about-window.ui:196
+msgid "_Credits"
+msgstr "_Tekijät"
+
+#. Translators: title of the row that opens the legal page (copyright, license)
+#: src/adw-about-dialog.ui:210 src/adw-about-window.ui:213
+msgid "_Legal"
+msgstr "_Lainopillinen"
+
+#. Translators: title of the row that opens the acknowledgements page
+#. (like credits but separate, e.g. for patreon backers)
+#: src/adw-about-dialog.ui:228 src/adw-about-window.ui:231
+msgid "_Acknowledgements"
+msgstr "Tu_nnustukset"
+
+#. Translators: title of the release notes page
+#: src/adw-about-dialog.ui:264 src/adw-about-window.ui:262
+msgid "What’s New"
+msgstr "Mitä uutta"
+
+#. Translators: title of the details page (comment, website etc)
+#: src/adw-about-dialog.ui:311 src/adw-about-window.ui:309
+msgid "Details"
+msgstr "Tiedot"
+
+#. Translators: title of the troubleshooting page
+#: src/adw-about-dialog.ui:371 src/adw-about-window.ui:369
+msgid "Troubleshooting"
+msgstr "Ongelmanratkaisu"
+
+#. Translators: comment at the top of the troubleshooting page
+#: src/adw-about-dialog.ui:395 src/adw-about-window.ui:393
+msgid ""
+"To assist in troubleshooting, you can view your debugging information. "
+"Providing this information to the application developers can help diagnose "
+"any problems you encounter when you report an issue."
+msgstr ""
+"Voit katsoa ongelmanratkaisussa hyödyksi olevia vianjäljitystietoja. Näiden "
+"tietojen toimittaminen sovelluskehittäjille voi auttaa mahdollisten "
+"ongelmien selvittämisessä."
+
+#. Translators: title of the row that opens the debug information page
+#: src/adw-about-dialog.ui:407 src/adw-about-window.ui:405
+msgid "_Debugging Information"
+msgstr "_Vianjäljitystiedot"
+
+#. Translators: title of the debug information page
+#: src/adw-about-dialog.ui:435 src/adw-about-window.ui:433
+msgid "Debugging Information"
+msgstr "Vianjäljitystiedot"
+
+#. Translators: label of a button on the debug information page
+#: src/adw-about-dialog.ui:484 src/adw-about-window.ui:482
+msgid "_Copy Text"
+msgstr "_Kopioi teksti"
+
+#. Translators: label of a button on the debug information page
+#: src/adw-about-dialog.ui:493 src/adw-about-window.ui:491
+msgid "_Save As…"
+msgstr "_Tallenna nimellä…"
+
+#. Translators: title of the credits page
+#: src/adw-about-dialog.ui:507 src/adw-about-window.ui:505
+msgid "Credits"
+msgstr "Tekijät"
+
+#. Translators: title of the legal page (copyright, license)
+#: src/adw-about-dialog.ui:539 src/adw-about-window.ui:537
+msgid "Legal"
+msgstr "Lainopillinen"
+
+#. Translators: title of the acknowledgements page
+#. (like credits but separate, e.g. for patreon backers)
+#: src/adw-about-dialog.ui:573 src/adw-about-window.ui:571
+msgid "Acknowledgements"
+msgstr "Tunnustukset"
+
+#. Translators: title of the toast that appears after taking a screenshot
+#: src/adw-adaptive-preview.c:392
+msgid "Screenshot copied to clipboard"
+msgstr "Kuvakaappaus kopioitu leikepöydälle"
+
+#. Translators: the window title for the adaptive preview view,
+#. accessed with Ctrl+Shift+M or from inspector
+#. Translators: tooltip of the buttons in each row in the adaptive preview section
+#. Translators: title of the adaptive preview group in inspector.
+#. This group lists compatible windows and allows to open or close
+#. adaptive preview for them.
+#: src/adw-adaptive-preview.ui:31 src/adw-inspector-page.c:68
+#: src/adw-inspector-page.ui:104
+msgid "Adaptive Preview"
+msgstr "Mukautuva esikatselu"
+
+#. Translators: the title of the device group in the adaptive preview sidebar,
+#. referring to the screen size and bezels of the preview
+#: src/adw-adaptive-preview.ui:42
+msgid "Display"
+msgstr "Näyttö"
+
+#. Translators: title of the device selector row
+#: src/adw-adaptive-preview.ui:46
+msgid "Device"
+msgstr "Laite"
+
+#. Translators: title of the custom screen width row
+#: src/adw-adaptive-preview.ui:53
+msgid "Width"
+msgstr "Leveys"
+
+#. Translators: title of the custom screen height row
+#: src/adw-adaptive-preview.ui:68
+msgid "Height"
+msgstr "Korkeus"
+
+#. Translators: title of the screen rotation row
+#: src/adw-adaptive-preview.ui:83
+msgid "Rotate"
+msgstr "Kierrä"
+
+#. Translators: tooltip of the button that rotates left/counterclockwise
+#: src/adw-adaptive-preview.ui:88
+msgid "Rotate Left"
+msgstr "Kierrä vasemmalle"
+
+#. Translators: tooltip of the button that rotates right/clockwise
+#: src/adw-adaptive-preview.ui:100
+msgid "Rotate Right"
+msgstr "Kierrä oikealle"
+
+#. Translators: title of the shell group in the adaptive preview sidebar,
+#. referring to the top/bottom bars within the preview
+#: src/adw-adaptive-preview.ui:116
+msgid "Shell"
+msgstr "Shell"
+
+#. Translators: title of the shell preset selector row
+#: src/adw-adaptive-preview.ui:120
+msgid "Preset"
+msgstr "Esivalinta"
+
+#. Translators: title of the custom top bar height row
+#: src/adw-adaptive-preview.ui:127
+msgid "Top Bar"
+msgstr "Yläpalkki"
+
+#. Translators: title of the custom bottom bar height row
+#: src/adw-adaptive-preview.ui:142
+msgid "Bottom Bar"
+msgstr "Alapalkki"
+
+#. Translators: title of the window controls switch row -
+#. refers to close/minimize/maximize buttons
+#: src/adw-adaptive-preview.ui:158
+msgid "Window Controls"
+msgstr "Ikkunasäätimet"
+
+#. Translators: title of the view group in the adaptive preview sidebar
+#: src/adw-adaptive-preview.ui:167
+msgid "View"
+msgstr "Näytä"
+
+#. Translators: title of the scale to fit option - it selects between
+#. scaling the preview as the window resizes, or having scrollbars instead
+#: src/adw-adaptive-preview.ui:172
+msgid "Scale to Fit"
+msgstr "Skaalaa sopimaan"
+
+#. Translators: title of the "highlight bezel" row -
+#. it makes screen bezel in the preview colored,
+#. so that it doesn't blend with the app when the app
+#. has black background
+#: src/adw-adaptive-preview.ui:182
+msgid "Highlight Bezel"
+msgstr "Korosta reunus"
+
+#. Translators: tooltip of the button that toggles the preview sidebar
+#: src/adw-adaptive-preview.ui:212
+msgid "Toggle Sidebar"
+msgstr "Sivupalkki päällä/pois"
+
+#. Translators: label of the button that exits adaptive preview
+#: src/adw-adaptive-preview.ui:223
+msgid "Exit"
+msgstr "Lopeta"
+
+#. Translators: tooltip of the button that takes a screenshot
+#: src/adw-adaptive-preview.ui:234
+msgid "Take Screenshot"
+msgstr "Ota kuvakaappaus"
+
+#. Translators: one of the values in the shell preset dropdown, it controls
+#. the height of the top and bottom bar in the preview. This one refers to the
+#. upstream gnome-shell - it only has a top bar
+#: src/adw-adaptive-preview-presets-private.h:27
+msgctxt "Shell preset"
+msgid "Desktop Shell"
+msgstr "Shell-työpöytäversio"
+
+#. Translators: one of the values in the shell preset dropdown, it controls
+#. the height of the top and bottom bar in the preview. This one refers to the
+#. mobile fork of gnome-shell - it has a top bar and a bottom bar
+#: src/adw-adaptive-preview-presets-private.h:31
+msgctxt "Shell preset"
+msgid "Mobile Shell"
+msgstr "Shell-mobiiliversio"
+
+#. Translators: one of the values in the shell preset dropdown, it controls
+#. the height of the top and bottom bar in the preview. Fullscreen mode means
+#. no top/bottom bars
+#: src/adw-adaptive-preview-presets-private.h:36
+msgctxt "Shell preset"
+msgid "Fullscreen"
+msgstr "Koko näyttö"
+
+#. Translators: one of the values in the shell preset dropdown, it controls
+#. the height of the top and bottom bar in the preview. Custom mode allows to
+#. set the panel heights manually
+#: src/adw-adaptive-preview-presets-private.h:40
+msgctxt "Shell preset"
+msgid "Custom"
+msgstr "Mukautettu"
+
+#. Translators: one of the values in the device preset dropdown, it controls
+#. the screen size and bezels of the preview. This is a "generic" linux
+#. phone, with the same dimensions as Librem 5, PinePhone and PinePhone Pro
+#: src/adw-adaptive-preview-presets-private.h:105
+msgctxt "Device preset"
+msgid "Generic Phone"
+msgstr "Yleinen puhelin"
+
+#. Translators: one of the values in the device preset dropdown, it controls
+#. the screen size and bezels of the preview. This is a tablet, so it has a
+#. larger size and is horizontally oriented
+#: src/adw-adaptive-preview-presets-private.h:117
+msgctxt "Device preset"
+msgid "Generic Tablet"
+msgstr "Yleinen tabletti"
+
+#. Translators: one of the values in the device preset dropdown, it controls
+#. the screen size and bezels of the preview. This is a custom device, it
+#. allows to set the screen size manually and has no bezels
+#: src/adw-adaptive-preview-presets-private.h:147
+msgctxt "Device preset"
+msgid "Custom"
+msgstr "Mukautettu"
+
+#. Translators: accessible label for an avatar. The variable is a name of
+#. the person the avatar refers to
+#: src/adw-avatar.c:161
+#, c-format
+msgid "Avatar of %s"
+msgstr "Käyttäjän %s profiilikuva"
+
+#. Translators: entry in the back button's context menu. Normally the entry
+#. titles here are page titles, but if a title is missing, "Back" is used
+#. instead.
+#. Translators: back button tooltip. Normally it's the title of the previous
+#. page (the one that will appear after clicking the button), but "Back" is
+#. used as a fallback if that page has no title.
+#. Translators: accessible label of back buttons. Unlike the tooltip and menu
+#. entries, this one is always used, regardless of page titles.
+#: src/adw-back-button.c:316 src/adw-back-button.c:417
+#: src/adw-back-button.c:525
+msgid "Back"
+msgstr "Takaisin"
+
+#. Translators: placeholder text of the search entry from AdwComboRow.
+#. It should be phrased as a verb
+#. Translators: tooltip of the search button
+#: src/adw-combo-row.ui:52 src/adw-preferences-dialog.ui:89
+#: src/adw-preferences-window.ui:100
+msgid "Search"
+msgstr "Etsi"
+
+#. Translators: tooltip of the apply button in entry row
+#: src/adw-entry-row.ui:95
+msgid "Apply"
+msgstr "Toteuta"
+
+#. Translators: used by screen reader when reading out view switcher pages
+#. which have needs-attention=true (the blue dot or number badge)
+#: src/adw-indicator-bin.c:80
+msgctxt "view switcher button badge"
+msgid "Attention requested."
+msgstr "Huomiota pyydetty."
+
+#. Translators: used by screen reader when reading out view switcher pages
+#. which have the unread badge (e.g. the number of updates/notifications).
+#. This string is used when the badge is showing "999+".
+#: src/adw-indicator-bin.c:87
+msgctxt "view switcher button badge"
+msgid "Has a badge: more than 999."
+msgstr "Sisältää numeromerkin: yli 999."
+
+#. Translators: used by screen reader when reading out view switcher pages
+#. which have the unread badge (e.g. the number of updates/notifications).
+#. The variable is what's displayed on the badge.
+#: src/adw-indicator-bin.c:92
+#, c-format
+msgctxt "view switcher button badge"
+msgid "Has a badge: %u."
+msgstr "Sisältää numeromerkin: %u."
+
+#. Translators: one of the color scheme dropdown options in inspector.
+#. No preference here means that the system doesn't care if the app is
+#. light or dark.
+#: src/adw-inspector-page.c:135
+msgid "No Preference"
+msgstr "Ei suosimista"
+
+#. Translators: one of the color scheme dropdown options in inspector.
+#. The system prefers apps to be dark.
+#: src/adw-inspector-page.c:139
+msgid "Prefer Dark"
+msgstr "Suosi tummaa"
+
+#. Translators: one of the color scheme dropdown options in inspector.
+#. The system prefers apps to be light.
+#: src/adw-inspector-page.c:143
+msgid "Prefer Light"
+msgstr "Suosi vaaleaa"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:157
+msgid "Blue"
+msgstr "Sininen"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:160
+msgid "Teal"
+msgstr "Sinivihreä"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:163
+msgid "Green"
+msgstr "Vihreä"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:166
+msgid "Yellow"
+msgstr "Keltainen"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:169
+msgid "Orange"
+msgstr "Oranssi"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:172
+msgid "Red"
+msgstr "Punainen"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:175
+msgid "Pink"
+msgstr "Pinkki"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:178
+msgid "Purple"
+msgstr "Violetti"
+
+#. Translators: one of the accent color dropdown options in inspector
+#: src/adw-inspector-page.c:181
+msgid "Slate"
+msgstr "Harmaasävy"
+
+#. Translators: the name of the library, not the stylesheet
+#: src/adw-inspector-page.c:320
+msgid "Adwaita"
+msgstr "Adwaita"
+
+#. Translators: title of the accent system appearance group in inspector
+#: src/adw-inspector-page.ui:11
+msgid "System Appearance"
+msgstr "Järjestelmän ulkoasu"
+
+#. Translators: description of the accent system appearance group
+#: src/adw-inspector-page.ui:13
+msgid ""
+"Override settings for this application. They will be reset upon closing the "
+"inspector."
+msgstr ""
+"Ohita asetukset tämän sovelluksen kohdalla. Asetukset nollataan tarkistimen "
+"sulkemisen jälkeen."
+
+#. Translators: title of the system-supports-color-scheme switch row.
+#. It's used to emulate systems that don't have their own light/dark
+#. setting, as opposed to those that do.
+#: src/adw-inspector-page.ui:19
+msgid "System Supports Color Schemes"
+msgstr "Järjestelmä tukee väriteemoja"
+
+#. Translators: title of the color scheme picker combo row
+#: src/adw-inspector-page.ui:26
+msgid "Preferred Color Scheme"
+msgstr "Suosittu väriteema"
+
+#. Translators: title of the accent color group in inspector
+#: src/adw-inspector-page.ui:46
+msgid "Accent Color"
+msgstr "Korostusväri"
+
+#. Translators: title of the system-supports-accent-color switch row.
+#. It's used to emulate systems that don't have their own accent color
+#. setting, as opposed to those that do.
+#: src/adw-inspector-page.ui:52
+msgid "System Supports Accent Colors"
+msgstr "Järjestelmä tukee korostusvärejä"
+
+#. Translators: title of the accent color picker picker row
+#: src/adw-inspector-page.ui:59
+msgid "Preferred Accent Color"
+msgstr "Suosittu korostusväri"
+
+#. Translators: title of the accessibility group in inspector
+#: src/adw-inspector-page.ui:89
+msgid "Accessibility"
+msgstr "Esteettömyys"
+
+#. Translators: title of the high contrast switch row
+#: src/adw-inspector-page.ui:93
+msgid "High Contrast"
+msgstr "Suuri kontrasti"
+
+#. Translators: description of the adaptive preview group
+#: src/adw-inspector-page.ui:106
+msgid ""
+"Test the app at specific screen sizes to simulate a mobile environment. Open "
+"the preview directly on any supported window using Shift+Ctrl+M"
+msgstr ""
+"Testaa sovellusta halutuilla näytön kokoluokilla simuloidaksesi "
+"mobiiliympäristöä. Avaa esikatselu suoraan mistä tahansa tuetusta ikkunasta "
+"painamalla Shift+Ctrl+M"
+
+#. Translators: context menu item for link rows in about dialog
+#: src/adw-link-row.c:328
+msgid "_Open Link"
+msgstr "_Avaa linkki"
+
+#. Translators: context menu item for link rows in about dialog
+#: src/adw-link-row.c:330
+msgid "Copy _Link Address"
+msgstr "Kopioi _linkin osoite"
+
+#. Translators: tooltip of the hide password button in password entry rows
+#: src/adw-password-entry-row.c:71
+msgid "Hide Password"
+msgstr "Piilota salasana"
+
+#. Translators: tooltip of the show password button in password entry rows
+#: src/adw-password-entry-row.c:76
+msgid "Show Password"
+msgstr "Näytä salasana"
+
+#. Translators: tooltip of the caps lock indicator in password entry rows
+#: src/adw-password-entry-row.c:171
+msgid "Caps Lock is on"
+msgstr "Caps Lock on päällä"
+
+#. Translators: context menu entry in password entry rows
+#: src/adw-password-entry-row.c:180
+msgid "_Show Password"
+msgstr "_Näytä salasana"
+
+#. Translators: shown in the search view in preferences dialog, in
+#. subtitles. When the dialog has more than 1 page, the search results
+#. display what page each row is from, e.g. Appearance → Fonts for a row
+#. from a Fonts group row on the Appearance page. If a page is missing a
+#. title, this string is used as a fallback, i.e. Untitled page → Fonts
+#: src/adw-preferences-dialog.c:222 src/adw-preferences-window.c:223
+msgid "Untitled page"
+msgstr "Nimetön sivu"
+
+#. Translators: default title in the preferences dialog
+#: src/adw-preferences-dialog.ui:6 src/adw-preferences-window.ui:9
+msgid "Preferences"
+msgstr "Asetukset"
+
+#. Translators: placeholder text in the search entry, search is a verb here
+#: src/adw-preferences-dialog.ui:72 src/adw-preferences-window.ui:83
+msgid "Search preferences"
+msgstr "Etsi asetuksia"
+
+#. Translators: title of the no search results page
+#: src/adw-preferences-dialog.ui:158 src/adw-preferences-window.ui:168
+#: src/adw-shortcuts-dialog.ui:83
+msgid "No Results Found"
+msgstr "Tuloksia ei löytynyt"
+
+#. Translators: description of the no search results page
+#: src/adw-preferences-dialog.ui:160 src/adw-preferences-window.ui:170
+#: src/adw-shortcuts-dialog.ui:85 src/adw-tab-overview.ui:116
+msgid "Try a different search"
+msgstr "Kokeile eri hakuehtoja"
+
+#. Translators: accessible description of the sheet close button
+#: src/adw-sheet-controls.c:131
+msgid "Close the window"
+msgstr "Sulje ikkuna"
+
+#. Translators: This string is used to mark left/right variants of modifier
+#. keys in the shortcut window (e.g. Control_L vs Control_R). Please keep
+#. this string very short, ideally just a single character, since it will
+#. be rendered as part of the key.
+#: src/adw-shortcut-label.c:132
+msgctxt "keyboard side marker"
+msgid "L"
+msgstr "V"
+
+#. Translators: This string is used to mark left/right variants of modifier
+#. keys in the shortcut window (e.g. Control_L vs Control_R). Please keep
+#. this string very short, ideally just a single character, since it will
+#. be rendered as part of the key.
+#: src/adw-shortcut-label.c:144
+msgctxt "keyboard side marker"
+msgid "R"
+msgstr "O"
+
+#. Translators: default title in shortcuts dialogs
+#: src/adw-shortcuts-dialog.ui:6
+msgid "Keyboard Shortcuts"
+msgstr "Pikanäppäimet"
+
+#. Translators: placeholder text for the search entry. Search is a verb here
+#. Translators: accessible label for the search entry
+#: src/adw-shortcuts-dialog.ui:22 src/adw-shortcuts-dialog.ui:25
+msgid "Search shortcuts"
+msgstr "Etsi pikanäppäimiä"
+
+#. Translators: shown in shortcuts dialog, when an action is listed, but
+#. doesn't actually have a shortcut
+#: src/adw-shortcut-row.c:259
+msgid "No Shortcut"
+msgstr "Ei pikanäppäintä"
+
+#. Translators: default tooltip of a split button's dropdown
+#: src/adw-split-button.c:532 src/adw-split-button.c:1050
+msgid "More Options"
+msgstr "Lisää valintoja"
+
+#. Translators: tooltip of AdwTabButton
+#: src/adw-tab-button.ui:8
+msgid "View Open Tabs"
+msgstr "Näytä avoimet välilehdet"
+
+#. Translators: tab overview title. The variable is the number of open tabs
+#: src/adw-tab-overview.c:967
+#, c-format
+msgid "%u Tab"
+msgid_plural "%u Tabs"
+msgstr[0] "%u välilehti"
+msgstr[1] "%u välilehteä"
+
+#. Translators: tooltip of the search button
+#: src/adw-tab-overview.ui:21
+msgid "Search Tabs"
+msgstr "Etsi välilehtiä"
+
+#. Translators: placeholder text of the search entry. Search is a verb here
+#: src/adw-tab-overview.ui:52
+msgid "Search tabs"
+msgstr "Etsi välilehtiä"
+
+#. Translators: title of the no open tabs page
+#: src/adw-tab-overview.ui:100
+msgid "No Open Tabs"
+msgstr "Ei avoinna olevia välilehtiä"
+
+#. Translators: title of the no search results page
+#: src/adw-tab-overview.ui:114
+msgid "No Tabs Found"
+msgstr "Välilehtiä ei löytynyt"
+
+#. Translators: label of the new tab button
+#: src/adw-tab-overview.ui:137
+msgid "New _Tab"
+msgstr "Uusi _välilehti"
+
+#. Translators: tooltip of the close button on tabs
+#: src/adw-tab-thumbnail.ui:40 src/adw-tab.ui:76
+msgid "Close Tab"
+msgstr "Sulje välilehti"
+
+#. Translators: an announcement screen reader reads out when a toast with a
+#. button appears. The first variable is the toast's title, the second one
+#. is the button label.
+#: src/adw-toast-overlay.c:289
+#, c-format
+msgid "A toast appeared: %s, has a button: %s"
+msgstr "Sovelluksen sisäinen ilmoitus ilmestyi: %s, siinä on painike: %s"
+
+#. Translators: an announcement screen reader reads out when a toast without
+#. a button appears. The variable is the toast's title.
+#: src/adw-toast-overlay.c:294
+#, c-format
+msgid "A toast appeared: %s"
+msgstr "Sovelluksen sisäinen ilmoitus ilmestyi: %s"
+
+#. Translators: an announcement screen reader reads out when a toast with a
+#. button, but without a title appears. The variable is the button label.
+#: src/adw-toast-overlay.c:298
+#, c-format
+msgid "A toast appeared, has a button: %s"
+msgstr "Sovelluksen sisäinen ilmoitus ilmestyi, siinä on painike: %s"
+
+#. Translators: an announcement screen reader reads out when a toast without
+#. a button or a title appears.
+#: src/adw-toast-overlay.c:303
+msgid "A toast appeared"
+msgstr "Sovelluksen sisäinen ilmoitus ilmestyi"
+
+#. Translators: tooltip of the dismiss (close) button on toasts
+#: src/adw-toast-widget.ui:67
+msgid "Dismiss"
+msgstr "Hylkää"
+
+#~ msgctxt "Shell preset"
+#~ msgid "Phosh"
+#~ msgstr "Phosh"
+
+#~ msgctxt "Device preset"
+#~ msgid "OnePlus 6"
+#~ msgstr "OnePlus 6"
+
+#~ msgctxt "Device preset"
+#~ msgid "OnePlus 6T"
+#~ msgstr "OnePlus 6T"
+
+#~ msgid "Try a different search."
+#~ msgstr "Kokeile eri hakuehtoja."
+
+#~ msgid "_What’s New"
+#~ msgstr "_Mitä uutta"
+
+#~ msgid "Search…"
+#~ msgstr "Etsi…"
+
+#~ msgid "Hide Text"
+#~ msgstr "Piilota teksti"
+
+#~ msgid "Show Text"
+#~ msgstr "Näytä teksti"
+
+#~ msgid "_Show Text"
+#~ msgstr "_Näytä teksti"
+
+#~ msgid "_Save"
+#~ msgstr "_Tallenna"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Peru"
+
+#~ msgid "Insert placeholder to %s"
+#~ msgstr "Lisää paikkavaraus %s:lle"
+
+#~ msgid "Remove placeholder from %s"
+#~ msgstr "Poista paikanvaraaja %s:stä"
+
+#~ msgid "This property does not apply when a custom title is set"
+#~ msgstr "Tämä ominaisuus ei ole käytössä, kun itse valittu nimi on asetettu"
+
+#~ msgid ""
+#~ "The decoration layout does not apply to header bars which do no show "
+#~ "window controls"
+#~ msgstr ""
+#~ "Koristeluasettelu ei päde otsikkopalkkeihin, jotka eivät näytä "
+#~ "ikkunanhallinnan nappeja"
+
+#~ msgid "This property only applies when the leaflet is folded"
+#~ msgstr ""
+#~ "Tämä ominaisuus on käytössä vain, kun sivulehdykkä on kokoon taitettuna"
+
+#~ msgid "Add group to %s"
+#~ msgstr "Lisää ryhmä %s:ään"
+
+#~ msgid "Add page to %s"
+#~ msgstr "Lisää sivu %s:ään"
+
+#~ msgid "Search bar is already full"
+#~ msgstr "Etsintärivi on jo täynnä"
+
+#~ msgid "Only objects of type %s can be added to objects of type %s."
+#~ msgstr ""
+#~ "Vain %s tyypin objekteja voidaan lisätä objekteihin, jotka ovat tyyppiä "
+#~ "%s."
+
+#~ msgid "Icon name"
+#~ msgstr "Kuvakkeen nimi"
+
+#~ msgid "Activatable widget"
+#~ msgstr "Aktivoitava pienohjelma"
+
+#~ msgid "The widget to be activated when the row is activated"
+#~ msgstr "Aktivoitava pienohjelma, kun rivi aktivoidaan"
+
+# aliotsikko vai tekstitys?
+#~ msgid "Subtitle"
+#~ msgstr "Tekstitys"
+
+#~ msgid "Use underline"
+#~ msgstr "Käytä alleviivausta"
+
+#, fuzzy
+#~ msgid ""
+#~ "If set, an underline in the text indicates the next character should be "
+#~ "used for the mnemonic accelerator key"
+#~ msgstr ""
+#~ "Mikäli asetettu, alleviivaus tekstissä tarkoittaa että, seuraavaa merkkiä "
+#~ "tulisi käyttää muistisäännön kiihdytyksen avaimena"
+
+#~ msgid "Number of pages"
+#~ msgstr "Sivujen määrä"
+
+#~ msgid "Position"
+#~ msgstr "Sijainti"
+
+#~ msgid "Current scrolling position"
+#~ msgstr "Nykyinen vierityksen sijainti"
+
+#~ msgid "Spacing"
+#~ msgstr "Asettelu"
+
+#~ msgid "Spacing between pages"
+#~ msgstr "Asettelu sivujen välillä"
+
+#~ msgid "Reveal duration"
+#~ msgstr "Paljastuksen kesto"
+
+#~ msgid "Page reveal duration"
+#~ msgstr "Sivun paljastuksen kesto"
+
+#~ msgid "Interactive"
+#~ msgstr "Vuorovaikutteinen"
+
+#~ msgid "Whether the widget can be swiped"
+#~ msgstr "Voiko pienohjelmaa hipaista"
+
+#~ msgid "Animation duration"
+#~ msgstr "Animoinnin kesto"
+
+#~ msgid "Default animation duration"
+#~ msgstr "Oletusanimaation kesto"
+
+#~ msgid "Allow mouse drag"
+#~ msgstr "Salli hiirellä vetäminen"
+
+#~ msgid "Whether to allow dragging with mouse pointer"
+#~ msgstr "Sallitaanko hiiren osoittimella raahaaminen"
+
+#~ msgid "Carousel"
+#~ msgstr "Karuselli"
+
+#~ msgid "Maximum size"
+#~ msgstr "Maksimi koko"
+
+#~ msgid "The maximum size allocated to the child"
+#~ msgstr "Suurin lapsiobjektille varattu koko"
+
+#~ msgid "Tightening threshold"
+#~ msgstr "Raja-arvon tiukennus"
+
+# sisällön kontekstin merkitys?
+#, fuzzy
+#~ msgid "The size from which the clamp will tighten its grip on the child"
+#~ msgstr "Koko, jossa puristin tiukentaa otettaan lapsiobjektista"
+
+#~ msgid "Selected index"
+#~ msgstr "Valittu indeksitunnus"
+
+#~ msgid "The index of the selected item"
+#~ msgstr "Valitun asian indeksitunnus"
+
+# Aliotsikko vai tekstitys?
+#~ msgid "Use subtitle"
+#~ msgstr "Käytä tekstitystä"
+
+# aliotsikko vai tekstitys?
+#~ msgid "Set the current value as the subtitle"
+#~ msgstr "Aseta nykyinen arvo tekstitykseksi"
+
+#~ msgid "Horizontally homogeneous"
+#~ msgstr "Vaakatasossa yhtenevä"
+
+#~ msgid "Horizontally homogeneous sizing"
+#~ msgstr "Vaakatasossa yhtenevät koot"
+
+#~ msgid "Vertically homogeneous"
+#~ msgstr "Pystysuuntaan yhtenevät"
+
+#~ msgid "Vertically homogeneous sizing"
+#~ msgstr "Pystysuuntaan yhtenevät koot"
+
+#~ msgid "Visible child"
+#~ msgstr "Näkyvä lapsiobjekti"
+
+#~ msgid "The widget currently visible"
+#~ msgstr "Nyt näkyvissä oleva pienohjelma"
+
+#~ msgid "Name of visible child"
+#~ msgstr "Näkyvän lapsiobjektin nimi"
+
+#~ msgid "The name of the widget currently visible"
+#~ msgstr "Nyt näkyvissä olevan pienohjelman nimi"
+
+#~ msgid "Transition type"
+#~ msgstr "Muutoksen tyyppi"
+
+#~ msgid "The type of animation used to transition between children"
+#~ msgstr "Animaation tyyppi siirryttäessä lapsiobjektien välillä"
+
+#~ msgid "Transition duration"
+#~ msgstr "Muutoksen kesto"
+
+#~ msgid "The transition animation duration, in milliseconds"
+#~ msgstr "Siirtymäanimaation kesto, millisekunneissa"
+
+#~ msgid "Transition running"
+#~ msgstr "Muutos menossa"
+
+#~ msgid "Whether or not the transition is currently running"
+#~ msgstr "Onko muutos juuri nyt käynnissä"
+
+#~ msgid "Interpolate size"
+#~ msgstr "Päättele koko"
+
+#~ msgid ""
+#~ "Whether or not the size should smoothly change when changing between "
+#~ "differently sized children"
+#~ msgstr ""
+#~ "Tulisiko koon vaihtua sulavasti vaihdettaessa erikokoisten lasten välillä"
+
+#~ msgid "Can swipe back"
+#~ msgstr "Voi hipaista takaisin"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch to the previous child"
+#~ msgstr "Voidaanko hipaisua käyttää vaihtamaan edelliseen lapsiobjektiin"
+
+#~ msgid "Can swipe forward"
+#~ msgstr "Voi hipaista eteenpäin"
+
+#~ msgid "Whether or not swipe gesture can be used to switch to the next child"
+#~ msgstr "Voidaanko hipaisua käyttää vaihtamaan seuraavaan lapsiobjektiin"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid "The name of the child page"
+#~ msgstr "Lapsiobjektin sivun nimi"
+
+# Aliotsikko vai tekstitys?
+#~ msgid "The subtitle for this row"
+#~ msgstr "Tämän rivin tekstitys"
+
+#~ msgid "Expanded"
+#~ msgstr "Laajennettu"
+
+#~ msgid "Whether the row is expanded"
+#~ msgstr "Onko rivi laajennettuna"
+
+#~ msgid "Enable expansion"
+#~ msgstr "Salli laajennus"
+
+#~ msgid "Whether the expansion is enabled"
+#~ msgstr "Onko laajennus käytössä"
+
+#~ msgid "Show enable switch"
+#~ msgstr "Näytä sallimisen kytkin"
+
+#~ msgid "Whether the switch enabling the expansion is visible"
+#~ msgstr "Onko laajennuksen käytön salliva kytkin näkyvissä"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimoi"
+
+#~ msgid "Restore"
+#~ msgstr "Palauta"
+
+#~ msgid "Maximize"
+#~ msgstr "Maksimoi"
+
+#~ msgid "Pack type"
+#~ msgstr "Pakkauksen tyyppi"
+
+# Sisältö ei ihan aukea
+#~ msgid ""
+#~ "A GtkPackType indicating whether the child is packed with reference to "
+#~ "the start or end of the parent"
+#~ msgstr ""
+#~ "GtkPackType, joka kertoo mikäli lapsiobjektilla on yhteystieto "
+#~ "emoprosessin alkuun tai loppuun"
+
+#~ msgid "The index of the child in the parent"
+#~ msgstr "Lapsiobjektin indeksitunnus isännässä"
+
+#~ msgid "Title"
+#~ msgstr "Nimi"
+
+#~ msgid "The title to display"
+#~ msgstr "Näytettävä nimi"
+
+# Aliotsikko vai tekstitys?
+#~ msgid "The subtitle to display"
+#~ msgstr "Näytettävä tekstitys"
+
+#~ msgid "Custom title widget to display"
+#~ msgstr "Itse valittu pienohjelman nimi esitettäväksi"
+
+#~ msgid "The amount of space between children"
+#~ msgstr "Tila lapsiobjektien välisen tilan määrä"
+
+#~ msgid "Show decorations"
+#~ msgstr "Näytä koristeet"
+
+#~ msgid "Whether to show window decorations"
+#~ msgstr "Näytetäänkö ikkunoiden koristeita"
+
+#~ msgid "Decoration Layout"
+#~ msgstr "Koristelun asettelu"
+
+#~ msgid "The layout for window decorations"
+#~ msgstr "Asettelu ikkunan koristeille"
+
+#~ msgid "Decoration Layout Set"
+#~ msgstr "Koristelun asettelun asettaminen"
+
+#~ msgid "Whether the decoration-layout property has been set"
+#~ msgstr "Onko koristeluasettelun ominaisuus asetettu"
+
+# aliotsikko vai tekstitys?
+#~ msgid "Has Subtitle"
+#~ msgstr "Tekstitys käytössä"
+
+# Aliotsikko vai teksitys?
+#~ msgid "Whether to reserve space for a subtitle"
+#~ msgstr "Varataanko tilaa tekstitykselle"
+
+#~ msgid "Centering policy"
+#~ msgstr "Keskityksen asetus"
+
+#~ msgid "The policy to horizontally align the center widget"
+#~ msgstr "Yleinen sääntö asetella keskimmäinen pienohjelma vaakatasossa"
+
+#~ msgid "The animation duration, in milliseconds"
+#~ msgstr "Animaation kesto, millisekunneissa"
+
+#~ msgid "Decorate all"
+#~ msgstr "Korista kaikki"
+
+#~ msgid ""
+#~ "Whether the elements of the group should all receive the full decoration"
+#~ msgstr "Kuuluuko joukon kaikkien elementtien saada täysi koristelu"
+
+# Merkki vai numero?
+#~ msgid "Digit"
+#~ msgstr "Merkki"
+
+#~ msgid "The keypad digit of the button"
+#~ msgstr "Näppäimistön painikkeen merkki"
+
+#~ msgid "Symbols"
+#~ msgstr "Symbolit"
+
+#~ msgid ""
+#~ "The keypad symbols of the button. The first symbol is used as the digit"
+#~ msgstr ""
+#~ "Näppäimistön painikkeen symbolit. Ensimmäistä symbolia käytetään merkkinä"
+
+#~ msgid "Show symbols"
+#~ msgstr "Näytä symbolit"
+
+#~ msgid "Whether the second line of symbols should be shown or not"
+#~ msgstr "Kuuluuko toisen rivillisen symboleita olla näkyvissä"
+
+#~ msgid "Row spacing"
+#~ msgstr "Rivien välys"
+
+#~ msgid "The amount of space between two consecutive rows"
+#~ msgstr "Kahden vierekkäisen rivin välisen tilan määrä"
+
+#~ msgid "Column spacing"
+#~ msgstr "Sarakkeiden välys"
+
+#~ msgid "The amount of space between two consecutive columns"
+#~ msgstr "Kahden vierekkäisen sarakkeen välisen tilan määrä"
+
+#~ msgid "Letters visible"
+#~ msgstr "Kirjaimia näkyvissä"
+
+#~ msgid "Whether the letters below the digits should be visible"
+#~ msgstr "Kuuluuko merkkien alla olevien kirjainten olla näkyvissä"
+
+#~ msgid "Symbols visible"
+#~ msgstr "Näkyvät symbolit"
+
+#~ msgid "Whether the hash, plus, and asterisk symbols should be visible"
+#~ msgstr "Kuuluuko risuaita-, plus- ja tähtimerkkien olla näkyvissä"
+
+#~ msgid "Entry"
+#~ msgstr "Merkintä"
+
+#~ msgid "The entry widget connected to the keypad"
+#~ msgstr "Sisääntulon pienohjelma liittyen näppäimistöön"
+
+#~ msgid "End action"
+#~ msgstr "Lopeta toiminta"
+
+#, fuzzy
+#~ msgid "The end action widget"
+#~ msgstr "Lopputoiminnon pienohjelma"
+
+#~ msgid "Start action"
+#~ msgstr "Aloita toiminto"
+
+#, fuzzy
+#~ msgid "The start action widget"
+#~ msgstr "Alkutoiminnon pienohjelma"
+
+#~ msgid "Folded"
+#~ msgstr "Taitettu kokoon"
+
+#~ msgid "Whether the widget is folded"
+#~ msgstr "Onko pienohjelma kokoon taitettuna"
+
+#~ msgid "Horizontally homogeneous folded"
+#~ msgstr "Vaakatasossa yhtenevästi kokoontaitettu"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is folded"
+#~ msgstr "Vaakatasossa yhtenevät koot, kun sivulehdykkä on kokoon taitettuna"
+
+#~ msgid "Vertically homogeneous folded"
+#~ msgstr "Pystysuuntaan yhtenevästi kokoon taitetut"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is folded"
+#~ msgstr "Pystysuuntaan yhtenevät koot, kun sivulehdykkä on kokoon taitettuna"
+
+#~ msgid "Box horizontally homogeneous"
+#~ msgstr "Laatikoi vaakatasoon samansuuruisina"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is unfolded"
+#~ msgstr "Vaakatasossa yhtenevät koot, kun sivulehdykkä on avattuna esiin"
+
+#~ msgid "Box vertically homogeneous"
+#~ msgstr "Laatikoi pystysuunnassa samansuuruisina"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is unfolded"
+#~ msgstr "Pystysuuntaan yhtenevät koot, kun sivulehdykkä on avattuna esiin"
+
+#~ msgid "The widget currently visible when the leaflet is folded"
+#~ msgstr ""
+#~ "Nyt näkyvissä oleva pienohjelma, kun sivulehdykkä on kokoon taitettuna"
+
+#~ msgid ""
+#~ "The name of the widget currently visible when the children are stacked"
+#~ msgstr ""
+#~ "Nyt näkyvissä olevan pienohjelman nimi, kun lapsiobjektit on kasattu"
+
+#~ msgid "The type of animation used to transition between modes and children"
+#~ msgstr "Animaation tyyppi siirryttäessä tilojen ja lapsiobjektien välillä"
+
+#~ msgid "Mode transition duration"
+#~ msgstr "Tilan muutoksen kesto"
+
+#~ msgid "The mode transition animation duration, in milliseconds"
+#~ msgstr "Tilan muutoksen animaation kesto, millisekunneissa"
+
+#~ msgid "Child transition duration"
+#~ msgstr "Lapsiobjektin siirtymän kesto"
+
+#~ msgid "The child transition animation duration, in milliseconds"
+#~ msgstr "Lapsiobjektin siirtymäanimaation kesto, millisekunneissa"
+
+#~ msgid "Child transition running"
+#~ msgstr "Lapsiobjektin siirtymä menossa"
+
+#~ msgid "Whether or not the child transition is currently running"
+#~ msgstr "Onko lapsiobjektin muutos juuri nyt käynnissä"
+
+#, fuzzy
+#~ msgid "Navigatable"
+#~ msgstr "Navigoitavissa"
+
+#~ msgid "Whether the child can be navigated to"
+#~ msgstr "Voiko lapsiobjektiin navigoida"
+
+#~ msgid "Description"
+#~ msgstr "Kuvaus"
+
+#~ msgid "The title of the preference"
+#~ msgstr "Asetusten nimi"
+
+#~ msgid "Whether search is enabled"
+#~ msgstr "Onko haku sallittu"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch from a subpage to the "
+#~ "preferences"
+#~ msgstr "Voidaanko hipaisua käyttää vaihtamaan alisivulta asetuksiin"
+
+#~ msgid "Search Mode Enabled"
+#~ msgstr "Etsintätila sallittu"
+
+#~ msgid "Whether the search mode is on and the search bar shown"
+#~ msgstr "Onko hakutoiminto käytössä ja hakurivi näkyvissä"
+
+#~ msgid "Show Close Button"
+#~ msgstr "Näytä 'Sulje' nappi"
+
+#~ msgid "Whether to show the close button in the toolbar"
+#~ msgstr "Näytetäänkö 'Sulje' nappi työkalupalkissa"
+
+#~ msgid "Widget"
+#~ msgstr "Pienohjelma"
+
+#~ msgid "The widget the shadow will be drawn for"
+#~ msgstr "Pienohjelma, josta varjo piirretään"
+
+#~ msgid "Homogeneous"
+#~ msgstr "Yhtenevä"
+
+#~ msgid "Homogeneous sizing"
+#~ msgstr "Yhtenevän kokoinen"
+
+#~ msgid "The widget currently visible in the squeezer"
+#~ msgstr "Nyt puristimessa näkyvissä oleva pienohjelma"
+
+#~ msgid "The type of animation used to transition"
+#~ msgstr "Animaation tyyppi siirtymissä"
+
+#~ msgid "X align"
+#~ msgstr "X tasaus"
+
+#~ msgid "The horizontal alignment, from 0 (start) to 1 (end)"
+#~ msgstr "Vaakatason asettelu, alkaen 0:sta (alku) päättyen 1:een (loppu)"
+
+#~ msgid "Y align"
+#~ msgstr "Y tasaus"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr ""
+#~ "Pystysuuntainen sijoittuminen, alkaen 0:sta (ylin) loppuen 1:een (alin)"
+
+#~ msgid "Enabled"
+#~ msgstr "Sallittu"
+
+#~ msgid ""
+#~ "Whether the child can be picked or should be ignored when looking for the "
+#~ "child fitting the available size best"
+#~ msgstr ""
+#~ "Voiko lapsiobjektin valita vai pitäisikö se sivuuttaa, kun etsitään "
+#~ "saatavilla olevaan kokoon sopivaa lapsiobjektia"
+
+#~ msgid "Horizontally homogeneous sizing when the widget is folded"
+#~ msgstr "Vaakatasossa yhtenevät koot, kun pienohjelma on kokoontaitettuna"
+
+#~ msgid "Vertically homogeneous sizing when the widget is folded"
+#~ msgstr "Pystysuuntaan yhtenevät koot, kun pienohjelma on kokoon taitettuna"
+
+#~ msgid "Horizontally homogeneous sizing when the widget is unfolded"
+#~ msgstr "Vaakatasossa yhtenevät koot, kun pienohjelma on avattuna esiin"
+
+#~ msgid "Vertically homogeneous sizing when the widget is unfolded"
+#~ msgstr "Pystysuuntaan yhtenevät koot, kun pienohjelma on avattuna esiin"
+
+#~ msgid "The widget currently visible when the widget is folded"
+#~ msgstr ""
+#~ "Nyt näkyvissä oleva pienohjelma, kun pienohjelma on kokoon taitettuna"
+
+#~ msgid "Orientation"
+#~ msgstr "Suunta"
+
+#~ msgid "Swipeable"
+#~ msgstr "Hipaistavissa"
+
+#~ msgid "The swipeable the swipe tracker is attached to"
+#~ msgstr "Hipaistavissa oleva, johon hipaisun seuranta liittyy"
+
+#~ msgid "Whether the swipe tracker processes events"
+#~ msgstr "Käsitteleekö hipaisujen seuraaja tapahtumia"
+
+#~ msgid "Reversed"
+#~ msgstr "Käänteinen"
+
+#~ msgid "Whether swipe direction is reversed"
+#~ msgstr "Onko hipaisun suunta käänteinen"
+
+#~ msgid "Selection mode"
+#~ msgstr "Valintatila"
+
+#~ msgid "Whether or not the title bar is in selection mode"
+#~ msgstr "Onko otsikkopalkki valintatilassa"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "Value"
+#~ msgstr "Arvo"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "The contained value"
+#~ msgstr "Kohteen arvo"
+
+#~ msgid "Policy"
+#~ msgstr "Yleinen sääntö"
+
+#~ msgid "The policy to determine the mode to use"
+#~ msgstr "Yleinen sääntö, jolla määrätään mitä tilaa käytetään"
+
+#~ msgid "Stack"
+#~ msgstr "Kasa"
+
+#~ msgid "Reveal"
+#~ msgstr "Paljasta"
+
+#~ msgid "Whether the view switcher is revealed"
+#~ msgstr "Onko näkymän vaihtaja paljastettu"
+
+#~ msgid "Icon Name"
+#~ msgstr "Kuvakkeen nimi"
+
+#~ msgid "Icon name for image"
+#~ msgstr "Kuvakkeen nimi kuvalle"
+
+#~ msgid "Icon Size"
+#~ msgstr "Kuvakkeen koko"
+
+#~ msgid "Symbolic size to use for named icon"
+#~ msgstr "Symbolinen koko käytettäväksi nimetylle ikonille"
+
+#~ msgid "Needs attention"
+#~ msgstr "Tarvitsee huomiota"
+
+#~ msgid "Hint the view needs attention"
+#~ msgstr "Vihje näkymän huomion tarpeesta"
+
+#~ msgid "Narrow ellipsize"
+#~ msgstr "Merkkijonon lyhennys pisteillä"
+
+#~ msgid ""
+#~ "The preferred place to ellipsize the string, if the narrow mode label "
+#~ "does not have enough room to display the entire string"
+#~ msgstr ""
+#~ "Haluttu kohta, jossa merkkijonoa kavennetaan pisteillä, mikäli kapean "
+#~ "tilan otsakkeella ei ole tarpeeksi tilaa esittää koko merkkijonoa"
+
+#~ msgid "View switcher enabled"
+#~ msgstr "Näkymänyhdistäjä käytössä"
+
+#~ msgid "Whether the view switcher is enabled"
+#~ msgstr "Onko näkymän vaihtaja käytössä"
+
+#~ msgid "Title visible"
+#~ msgstr "Nimi näkyvissä"
+
+#~ msgid "Whether the title label is visible"
+#~ msgstr "Onko nimen otsakerivi näkyvissä"
+
+#~ msgid "Move"
+#~ msgstr "Siirrä"
+
+#~ msgid "Resize"
+#~ msgstr "Muuta kokoa"
+
+#~ msgid "Always on Top"
+#~ msgstr "Aina päällimmäisenä"

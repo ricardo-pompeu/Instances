@@ -1,0 +1,2 @@
+# GTK 4, Libadwaita e PyGObject são instalados pelo gerenciador de pacotes do sistema.
+requests>=2.28,<3

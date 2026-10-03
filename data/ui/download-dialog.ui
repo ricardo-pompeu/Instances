@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="instances">
+  <template class="InstancesDownloadDialog" parent="AdwAlertDialog">
+    <property name="heading" translatable="yes">Baixar novo modelo</property>
+    <property name="body" translatable="yes">Digite o nome de um modelo disponível no Ollama, por exemplo llama3.2:1b.</property>
+    <property name="extra-child">
+      <object class="GtkEntry" id="entry">
+        <property name="placeholder-text" translatable="yes">Nome do modelo</property>
+        <property name="activates-default">true</property>
+      </object>
+    </property>
+  </template>
+</interface>

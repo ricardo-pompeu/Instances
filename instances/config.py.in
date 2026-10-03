@@ -1,0 +1,5 @@
+"""Configuração gerada pelo Meson; não editar."""
+APP_ID = '@APP_ID@'
+VERSION = '@VERSION@'
+DATA_DIR = '@DATA_DIR@'
+LOCALE_DIR = '@LOCALE_DIR@'

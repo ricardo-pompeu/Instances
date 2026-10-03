@@ -1,0 +1,9 @@
+#!@PYTHON@
+"""Launcher configurado pelo Meson."""
+import sys
+
+sys.path.insert(0, '@DATA_DIR@')
+
+from instances.application import main
+
+raise SystemExit(main())

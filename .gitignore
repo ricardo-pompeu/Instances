@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+po/*.pot
+
+_build/
+.local-build/
+*.zip
+
+# Configurações locais e credenciais
+.codex/
+.agents/
+.aws/
+.env
+.env.*

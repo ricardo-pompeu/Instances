@@ -1,0 +1,190 @@
+include:
+  - project: 'Infrastructure/freedesktop-ci-templates'
+    ref: '707b49ef'
+    file:
+      - 'templates/fedora.yml'
+  - project: 'gnome/citemplates'
+    file: 'flatpak/flatpak_ci_initiative.yml'
+  - component: gitlab.gnome.org/GNOME/citemplates/release-service@master
+    inputs:
+      job-stage: deploy
+      dist-job-name: "build-gnomeos"
+  - component: "gitlab.gnome.org/GNOME/citemplates/gnomeos-basic-ci@master"
+    inputs:
+      meson-options: "-Ddocumentation=true --force-fallback-for=ministream"
+      lsan-options: "suppressions=${CI_PROJECT_DIR}/tests/lsan.supp"
+      goblint: "disabled"
+      gobject-linter: "disabled"
+
+variables:
+  APP_ID: 'org.gnome.Adwaita1.Demo'
+  BUNDLE: 'org.gnome.Adwaita1.Demo.flatpak'
+  RUNTIME_REPO: 'https://nightly.gnome.org/gnome-nightly.flatpakrepo'
+  MANIFEST_PATH: 'demo/org.gnome.Adwaita1.Demo.json'
+  FLATPAK_MODULE: 'libadwaita'
+  FLATPAK_BUILD_DIR: build
+  # Instead of -nightly, -48 can be used for stable
+  GNOMEOS_IMAGE_VERSION: "nightly"
+  GNOMEOS_IMAGE: "quay.io/gnome_infrastructure/gnome-build-meta:core-$GNOMEOS_IMAGE_VERSION"
+
+stages:
+  - prepare
+  - build
+  - deploy
+
+.container.android:
+  variables:
+    BASE_TAG: '2026-03-14.0'
+    FDO_DISTRIBUTION_VERSION: 44
+    FDO_DISTRIBUTION_TAG: "x86_64-${BASE_TAG}"
+    FDO_DISTRIBUTION_PACKAGES:
+      appstream
+      gcc
+      gcc-c++
+      gettext
+      git
+      glib2
+      glib2-devel
+      glslc
+      java-25-openjdk-devel
+      libxml2
+      meson
+      ninja
+      perl
+      python3-sdkmanager
+      sassc
+      which
+      'perl(Archive::Tar)'
+      'perl(Glib)'
+      'perl(Glib::Object::Introspection)'
+      'perl(IPC::Run)'
+      'perl(JSON)'
+      'perl(Set::Scalar)'
+      'perl(XML::LibXML)'
+      'perl(XML::LibXSLT)'
+    FDO_DISTRIBUTION_EXEC: |
+      .gitlab-ci/android-sdk.sh
+    ANDROID_HOME: "/opt/android/"
+    ANDROID_SDKVER: "36.1.0"
+    ANDROID_NDKVER: "29.0.14206865"
+    HOST_USER_ID: "5555"
+    LANG: "C.UTF-8"
+
+.distribution.android:
+  extends:
+    - .fdo.distribution-image@fedora
+    - .container.android
+
+container:android:
+  extends:
+    - .container.android
+    - .fdo.container-build@fedora@x86_64
+  stage: prepare
+
+api-visibility:
+  stage: build
+  before_script: []
+  needs: []
+  script:
+    - ./.gitlab-ci/api-visibility.sh
+
+doc:
+  image: "$GNOMEOS_IMAGE"
+  stage: build
+  needs: []
+  tags:
+    - flatpak
+  variables:
+    MESON_ARGS: >-
+      -Ddocumentation=true
+      -Dtests=false
+      -Dvapi=false
+  script:
+    - meson setup --fatal-meson-warnings --prefix=/app ${MESON_ARGS} _build
+    - ninja -C _build
+    - meson test -C _build --suite libadwaita:doc
+    - mv _build/doc/libadwaita-1 _doc/
+  artifacts:
+    expose_as: 'Browse documentation'
+    paths:
+      - _doc/index.html
+      - _doc
+
+build-android:
+  extends:
+    - .distribution.android
+  stage: build
+  artifacts:
+    paths:
+      - apks
+    expire_in: 1 week
+  needs: ['container:android']
+  before_script:
+    - git clone https://github.com/sp1ritCS/gtk-android-builder.git pixiewood
+    - git clone --depth 1 https://github.com/sp1ritCS/mini-studio.git
+    - |
+      if [ -z ${ANDROID_KEYSTORE_ENC} ]; then
+        export ANDROID_KEYSTORE_LOCATION="subprojects/gtk/.gitlab-ci/debug.keystore"
+        export ANDROID_KEYSTORE_KEY="android"
+        export ANDROID_APK_SUFFIX="debugsigned"
+      else
+        export ANDROID_KEYSTORE_LOCATION="keystore.jks"
+        echo "${ANDROID_KEYSTORE_ENC}" | base64 -d > ${ANDROID_KEYSTORE_LOCATION}
+        export ANDROID_APK_SUFFIX="signed"
+      fi
+  script:
+    - ./pixiewood/pixiewood prepare --release -s "${ANDROID_HOME}" -a ./mini-studio "build-aux/android/${APP_ID}.xml"
+    - ./pixiewood/pixiewood generate
+    - ./pixiewood/pixiewood build
+    - mkdir -p apks/
+    - find .pixiewood/android/app/build/outputs/apk/release/ -type f -name '*.apk' -exec sh -c '${ANDROID_HOME}/build-tools/${ANDROID_SDKVER}/apksigner sign --ks "${ANDROID_KEYSTORE_LOCATION}" --ks-pass "env:ANDROID_KEYSTORE_KEY" --in "$0" --out "apks/$(basename "$0" | sed s/unsigned/${ANDROID_APK_SUFFIX}/g)"' {} \;
+
+build-flatpak:
+  extends: '.flatpak@x86_64'
+  stage: build
+  before_script: []
+  needs: []
+  variables:
+    MESON_DIST: "0"
+
+build-flatpak-aarch64:
+  extends: '.flatpak@aarch64'
+  stage: build
+  before_script: []
+  needs: []
+  variables:
+    MESON_DIST: "0"
+
+abi-check:
+  image: "$GNOMEOS_IMAGE"
+  stage: build
+  needs: []
+  variables:
+    LAST_ABI_BREAK: "8896cb224e7bd737b7f99bba5a10b56e89f034c4"
+  script:
+    - ./.gitlab-ci/check-abi ${LAST_ABI_BREAK} $(git rev-parse HEAD)
+
+potfiles:
+  image: quay.io/fedora/fedora:latest
+  stage: build
+  script:
+    - .gitlab-ci/check-potfiles.sh
+
+refresh-doc:
+  image: quay.io/fedora/fedora:latest
+  stage: deploy
+  needs: ['doc']
+  only:
+    refs:
+    - 'main'
+  script:
+    - export DOCS_TRIGGER_TOKEN=$( cat "${DOCS_TRIGGER_TOKEN_FILE}" )
+    - "curl -X POST -F token=${DOCS_TRIGGER_TOKEN} -F ref=pages https://gitlab.gnome.org/api/v4/projects/14079/trigger/pipeline"
+
+nightly:
+  extends: '.publish_nightly'
+  needs: ['build-flatpak']
+
+nightly-aarch64:
+  extends: '.publish_nightly'
+  needs: ['build-flatpak-aarch64']

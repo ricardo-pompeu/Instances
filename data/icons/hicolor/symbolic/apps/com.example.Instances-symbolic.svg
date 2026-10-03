@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <title>Instances</title>
+  <g fill="#2e3436">
+    <path d="M8 0C8 3 12 4 12 7a4 4 0 0 1-8 0c0-2 2-3 2-5 1 1 1 2 1 3 1-1 1-3 1-5zm0 5C8 7 6 7 6 9a2 2 0 0 0 4 0c0-1-1-2-2-4z"/>
+    <path d="M2 9h1v2c0 1 1 2 3 2h6c1 0 2-1 2-2V9h1v2c0 2-1 3-3 3H7l-3 2v-2c-2 0-3-1-3-3V9z"/>
+  </g>
+</svg>

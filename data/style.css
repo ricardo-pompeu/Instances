@@ -1,0 +1,22 @@
+/* Os widgets mantêm as métricas e os estilos padrão da libadwaita.
+ * Personalização restrita ao conteúdo da conversa. */
+.message-user {
+  background: color-mix(in srgb, var(--accent-bg-color) 12%, var(--card-bg-color));
+  color: var(--card-fg-color);
+  border-radius: 12px;
+  padding: 12px;
+}
+.composer textview,
+.composer textview text {
+  background: transparent;
+  color: inherit;
+}
+
+/* Evita que o espaçamento interno de AdwStatusPage seja aplicado à
+ * caixa de sugestões, que também está dentro de um AdwClamp. */
+statuspage.compact .welcome-suggestions {
+  border-spacing: 8px;
+}
+.welcome-suggestions > button.suggestion-button {
+  padding: 10px 14px;
+}
