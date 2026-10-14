@@ -1,7 +1,9 @@
 # Instances — Instâncias
 
 Aplicativo GNOME para conversar com modelos locais do Ollama, feito com
-Python, GTK 4 e libadwaita. O Instances é o projeto principal desta pasta.
+Python, GTK 4 e libadwaita.
+
+![](screenshots/main.png)
 
 ## Executar
 
